@@ -7,7 +7,5 @@ while(N>0):
     lastDigit = N%10
     newDigit = str(newDigit) + str(lastDigit) 
     # int(N/10) removes the last digit which returns only int digits, and the last digit will be on the other side of the decimal
-    N = int(N/10)
-
-
+    N = N//10
 print("new digit",newDigit)
