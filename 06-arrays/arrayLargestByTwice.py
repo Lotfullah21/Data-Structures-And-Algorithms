@@ -6,7 +6,7 @@ def main():
 def maxNumber(arr):
     firstMax = float('-inf') 
     secondMax = float('-inf') 
-    index =0
+    index = 0
     for i in range(0,len(arr)):
         if arr[i]>firstMax:
             secondMax = firstMax
