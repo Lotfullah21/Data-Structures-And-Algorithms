@@ -10,7 +10,7 @@ def atleastOneMax(arr):
             max = arr[i]
     for i in range(0,len(arr)):
         if arr[i]==max:
-            count = count + 1    
+            count = count + 1
         # if we want to count only unique values, we can use sets and subtract from len of set.    
         uniqueValues.add(arr[i])
     print(uniqueValues)
