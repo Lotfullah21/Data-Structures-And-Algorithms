@@ -1,4 +1,5 @@
-n,m = int(input("How many rows? ").split())
+# n, m = map(int, input().split())
+n, m = map(int, (input("Enter number of rows and columns: ").split()))
 array = []
 
 # taking users input as an array element
@@ -6,10 +7,9 @@ for i in range(n):
     # create an array of m*n
     array.append([0]*m)
     for j in range(m):  
-         # assign to each element of the array a value
-        print("row",i,"column",j)
+        print("row",i,"column",j,end=" ")
         array[i][j] = int(input(""))
-        # array[i][j] = int(input("Enter a value"))
+
     
     
 for i in range(n):
@@ -20,8 +20,3 @@ for i in range(n):
     print()
     
     
-x = int(input("Enter"))
-print(type(x))
-
-y = int(input().split())
-print(type(y))
