@@ -12,8 +12,7 @@ def reverse(arr):
     while(start < end):
         temp = arr[start]
         arr[start] = arr[end]
-        arr[end] = temp
-            
+        arr[end] = temp      
         start+=1
         end-=1
     return arr
