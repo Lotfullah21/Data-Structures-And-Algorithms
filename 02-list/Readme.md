@@ -1,10 +1,6 @@
-## List []
-list is an ordered sequence of data, where its size can be changed as date related to a particular list changes.
 
-it is also called dynamic array.
-<h1>Lists <span>[]</span></h1>
 Lists are ordered sequence of elements,in fact a list will be an object in the memory, we can can collect more information about an object in a single list
-
+it is also called dynamic array.
 <h2>Important properties of lists</h2>
 <ul>
 <li>Lists are mutable,means we can change the elements of the list even after asigning to a the values.
