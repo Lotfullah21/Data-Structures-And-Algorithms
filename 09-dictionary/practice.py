@@ -11,7 +11,7 @@ def main():
     
 
 
-def freq(arr):
+def freq(arr: list) -> dict:
     my_dict = {}
     for ele in arr:
         if ele in my_dict:
