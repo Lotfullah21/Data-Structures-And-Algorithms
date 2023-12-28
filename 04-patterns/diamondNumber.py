@@ -5,6 +5,7 @@
   2 3 2  
     1
 """
+# Homework
 
 n = int(input(""))
 num_space = n//2

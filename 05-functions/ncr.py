@@ -5,18 +5,18 @@ fact = 1
 for i in range(1, N + 1):
     fact = fact * i
     
-factr = 1
+fact_r = 1
 for i in range(1, r + 1):
-    factr = factr * i     
+    fact_r = fact_r * i     
 
-factnr = 1
+fact_nr = 1
 for i in range(1, (N-r) + 1):
-    factnr = factnr * i
+    fact_nr = fact_nr * i
 
-print("fact = ",fact, "fact r = ",factr,"fact n-r = ",factnr)
+print("fact = ",fact, "fact r = ",fact_r,"fact n-r = ",fact_nr)
 
 
 
-ans = (fact)//((factr)*(factnr))
+ans = (fact)//((fact_r)*(fact_nr))
 
 print(ans)
