@@ -1,3 +1,4 @@
+
 arr = [0]*10 # initialize an array with 10 elements each assigned zero as a value.
 print("an empty array",arr)
 
