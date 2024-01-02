@@ -1,7 +1,16 @@
 def main():
     arr = list(map(int, input("Enter the  elements: ").split()))
     print(atleastOneMax(arr))
-def atleastOneMax(arr):
+    
+def atleastOneMax(arr: list) -> int:
+    """counts number of elements that has at least one number greater than themselves.
+
+    Args:
+        arr (list): list of integers
+
+    Returns:
+        int: total number of elements that are having at least one number greater than itself. 
+    """
     max = float("-inf")
     uniqueValues = set()
     count = 0

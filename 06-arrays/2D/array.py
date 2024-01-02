@@ -1,5 +1,4 @@
 rows = 4
-
 cols = 20
 
 array = []

@@ -6,17 +6,45 @@ array = []
 for i in range(n):
     # create an array of m*n
     array.append([0]*m)
-    for j in range(m):  
-        print("row",i,"column",j,end=" ")
-        array[i][j] = int(input(""))
+    print(array)
+# print(array)
+    # for j in range(m):  
+    #     print("row",i,"column",j,end=" ")
+    #     array[i][j] = int(input(""))
 
     
     
-for i in range(n):
-    for j in range(m):  
-        # print each element until we reach m
-        print(array[i][j],end=" ")
-    # exit the loop and print a new line when have reached to the end of column.
-    print()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+# for i in range(n):
+#     for j in range(m):  
+#         # print each element until we reach m
+#         print(array[i][j],end=" ")
+#     # exit the loop and print a new line when have reached to the end of column.
+#     print()
     
     
