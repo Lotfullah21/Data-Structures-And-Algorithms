@@ -16,25 +16,29 @@ charSummation = ord(char1) + ord(char2)
 print(f"{char1} + {char2} =",charSummation)
 
 
-# we can use chr() to obtain the ASCII character of an integer.
+# we can use chr() to obtain the ASCII value of an integer.
 b = chr(90)
 print("ASCII character of 90 is",b)
 
 
+# indexing and slicing can be used in strings as well.
+
 name = "HoshmandLab"
 
-print(name[0])
-print(name[-1:])
-print(name[0:])
+print("first char",name[0])
+print("last char",name[-1])
+print("in reverse",name[-1::-1])
+print("whole string",name[0:])
 
 
 
 my_string = "This is a test string!"
 # split method will be create substrings based on white space, ["This", "is","a","test","string"]
-substring = my_string.split() # This
+substring = my_string.split() # ['This', 'is', 'a', 'test', 'string!']
 substring0 = my_string.split()[0] # This
-print(substring0)
-print(substring[0])
+print("split()",substring)
+print("split()[0]",substring0)
+print("[0]",substring[0])
 
 
 my_string_slice = my_string[0:-1]
@@ -53,5 +57,3 @@ print(my_string[0])
 
 
 print(chr(ord("v")+9))
-
-

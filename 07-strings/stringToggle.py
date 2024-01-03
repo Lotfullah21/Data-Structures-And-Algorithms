@@ -9,9 +9,7 @@ def toggle(arr):
         if (ord(arr[i])>=65 and ord(arr[i])<=90):
             toggled_strings_array.append(chr(ord(arr[i])+32))
         else:
-            toggled_strings_array.append(chr(ord(arr[i])-32))
-        print(toggled_strings_array)
-            
+            toggled_strings_array.append(chr(ord(arr[i])-32))            
     return "".join(toggled_strings_array)
 if __name__ == "__main__":
     main()
