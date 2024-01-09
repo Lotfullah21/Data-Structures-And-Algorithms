@@ -30,7 +30,7 @@ Solution to smallest sub problem.
 
 2. the value of that function will be returned to the previous function that created this function.
 
-3. variable across local scopes are not connected, which means if you change something in fn_3, it will be reflected in fn_2.
+3. variable across local scopes are not connected, which means if you change something in fn_3, it will not be reflected in fn_2.
 4. each variable is a different object in different even if they are having same names.
 5. No value will be returned until you touch the base case.
 
