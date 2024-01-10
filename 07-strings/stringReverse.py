@@ -17,6 +17,7 @@ if __name__ == "__main__":
     
     
 def reverse(string):
+    # it returns a new list and does not modify the original list
     reversed_str = string[::-1]
     return reversed_str
 
@@ -25,6 +26,7 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
+        # it modify the original list, any changes here will be reflected everywhere else.
         s[:] = s[::-1]
 
         

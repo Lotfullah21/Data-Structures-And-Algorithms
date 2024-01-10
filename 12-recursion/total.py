@@ -12,14 +12,12 @@ def total(n: int) -> int:
 
     Returns:
         int: summation of integers.
-    """
+f    """
     if n == 1:
         return 1
     else:
         return n + total(n-1)
-
-        
-
+    
 if __name__ == "__main__":
     main()
     

@@ -6,7 +6,7 @@ def sqrt(x):
 
 applied_list = []
 
-def applyToEach(fnList,x):
+def applyToEach(fnList,x: int) -> None:
     for f in fnList:
         for el in x:
             el = f(el)
