@@ -1,4 +1,4 @@
-# dictionary allow us to use one data structure and have addresses or indexes which are necessary to be integers
+# dictionary allow us to use one data structure and have addresses or indexes which are not necessary to be integers
 
 my_dict  = {}
 capitals = {"Afg":"Kabul","Ind":"Delhi","Iran":"Tehran"}
@@ -18,3 +18,6 @@ print("Values =",capitals.values())
 for x in capitals.values():
     print(x)
     
+
+for w in capitals:
+    print("w",w)
