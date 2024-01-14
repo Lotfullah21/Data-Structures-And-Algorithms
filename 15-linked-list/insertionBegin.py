@@ -3,8 +3,6 @@ class Node:
         self.key = value
         self.next = None
         
-        
-
 n1 = Node(0)
 n2 = Node(1)
 n3 = Node(2)
