@@ -14,7 +14,7 @@ n2.next = n3
 def printList(head: Node):
     "traverse through a linked list and print its values"
     curr = head
-    while(curr != None):
+    while(curr!= None):
         print(curr.key,end=" ")
         # get the next value of current node.
         curr = curr.next
