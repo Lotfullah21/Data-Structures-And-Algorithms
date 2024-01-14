@@ -2,15 +2,7 @@ class Node:
     def __init__(self,value):
         self.key = value
         self.next = None
-        
-n1 = Node(0)
-n2 = Node(1)
-n3 = Node(2)
-
-head = n1
-n1.next = n2
-n2.next = n3
-
+         
 def printList(head: Node):
     "traverse through a linked list and print its values"
     curr = head
@@ -33,8 +25,14 @@ def insertionAtEnd(node: Node, val: int,prevHead: head) -> Node:
     temp.next = node(val)
     printList(prevHead)
     
+n1 = Node(0)
+n2 = Node(1)
+n3 = Node(2)
+
+head = n1
+n1.next = n2
+n2.next = n3
 
 insertionAtEnd(node = Node, val=9,prevHead = head )
-
-print()
+print("\n linked list after insertion at the end")
 printList(head)
