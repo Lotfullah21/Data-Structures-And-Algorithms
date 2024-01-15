@@ -26,7 +26,7 @@ def floor(arr: list, k: int) -> int:
             ans = arr[mid]
             low = mid + 1    
         else:
-            # if arr[mid] > k
+            # if arr[mid] > kff
             high = mid -  1
           
     return ans
