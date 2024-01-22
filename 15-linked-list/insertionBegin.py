@@ -11,15 +11,6 @@ head = n1
 n1.next = n2
 n2.next = n3
 
-
-# adding it manually
-newNode = Node(-1)
-# assign the next of newly Created node to the prev head.
-newNode.next = head
-# re-assign the head to the newly created node.
-head = newNode
-
-
 def printList(head: Node):
     "traverse through a lined list and print its values"
     curr = head
@@ -27,18 +18,16 @@ def printList(head: Node):
         print(curr.key,end=" ")
         curr = curr.next
         
-
-
 # a function to do the above task
-def insertionAtStart(node: Node, val: int,prevHead: vars) -> Node:
+def insertionAtStart(node: Node, val: int,head: Node) -> Node:
     "insert a node at the beginning of a node"
     newNode = node(val)
-    newNode.next = prevHead
-    prevHead = newNode
-    printList(prevHead)
+    newNode.next = head
+    return newNode
     
-
-insertionAtStart(node = Node, val=10,prevHead = head )
-
-print()
+head = insertionAtStart(node = Node, val=3,head = head )
+head = insertionAtStart(node = Node, val=4,head = head )
+head = insertionAtStart(node = Node, val=5,head = head )
+print("New linked list after inserting three elements")
+# printList(head)
 printList(head)
