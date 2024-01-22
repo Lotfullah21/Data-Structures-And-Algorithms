@@ -2,15 +2,16 @@ class Node:
     def __init__(self, key):
         self.data = key
         self.next = None
-        
-        
-def displayList(head):
+            
+def displayList(head: Node):
+    "displays elements of a linked list"
     temp = head
     while(temp!=None):
         print(temp.data, end=" ")
         temp = temp.next
         
-def insertInSorted(head, ele):
+def insertInSorted(head: Node, ele: int) -> Node:
+    "takes an integer and compare it with other node's data, if it is smaller than head, inserts it at the beginning, else, it will traverse until meet the condition."
     newNode = Node(ele)
     if head==None:
         head = newNode
@@ -27,6 +28,7 @@ def insertInSorted(head, ele):
         plusOneNode = temp.next
         temp.next = newNode
         newNode.next = plusOneNode
+        # because we are changing head in above two if and elif conditions, we need to return head
         return head
         
 head = Node(10)
@@ -42,5 +44,5 @@ temp2.next = temp3
 print("Original linked list: ",end=" ")
 displayList(head)
 head = insertInSorted(head,390)
-print("\nLinked list after deleting the element at specified position: ",end =" ")
+print("\nLinked list after inserting a node in sorted linked list: ",end =" ")
 displayList(head)
