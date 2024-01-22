@@ -12,7 +12,9 @@ def printList(head):
 def deleteHead(head: Node) -> Node:
     if head is not None:
         head = head.next
-    return head
+        return head
+    else:
+        return None
     
 head = Node(10)
 temp1 = Node(20)
@@ -23,8 +25,8 @@ head.next = temp1
 temp1.next = temp2
 temp2.next = temp3
 
-print("original linked list")
+print("Original linked list: ",end=" ")
 printList(head)
 head = deleteHead(head)
-print("\n linked list after deleting the head")
+print("\nLinked list after deleting the head: ",end =" ")
 printList(head)

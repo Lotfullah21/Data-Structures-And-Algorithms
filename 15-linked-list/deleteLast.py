@@ -32,8 +32,8 @@ head.next = temp1
 temp1.next = temp2
 temp2.next = temp3
 
-print("Original linked list")
+print("Original linked list: ", end=" ")
 printList(head)
 newList = deleteLastNode(head)
-print("\nLinked list after deleting the last node")
+print("\nLinked list after deleting the last node: ",end=" ")
 printList(newList)
