@@ -4,10 +4,7 @@ LinkedList: 1->2->3->4->5->6
 Output: 6 5 4 3 2 1
 Explanation: After reversing the list, 
 elements are 6->5->4->3->2->1.
-
 """
-
-
 
 class Node:
     def __init__(self, val):
@@ -42,7 +39,6 @@ def printList(head: Node) -> Node:
         print(temp.key, end =" ")
         temp = temp.next
     print()
-
     
 head = Node(10)
 temp1 = Node(20)
