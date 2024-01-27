@@ -20,7 +20,7 @@ class MyQueue:
     def enque(self, x) -> list:
         "add the elements to the end of a linked list."
         temp = Node(x)
-        if self.rear == None:
+        if self.rear is None:
             self.front = temp
             self.rear = temp
             return 
@@ -30,7 +30,7 @@ class MyQueue:
     
     def deque(self) -> list:
         "remove the elements from front of a linked list."
-        if self.front == None:
+        if self.front is None:
             return None
         else:
             nodeData = self.front.data
@@ -61,21 +61,22 @@ class MyQueue:
             temp = temp.next
         print(result)
         return result
-               
-queue = MyQueue()
-queue.enque(2)
-queue.enque(3)
-queue.enque(4)
-queue.enque(5)
-queue.enque(2)
-queue.enque(3)
-queue.enque(4)
-queue.enque(5)
-print("before deque")
-queue.displayList()
-print("Front",queue.getFront())
-print("Rear",queue.getRear())
-print("size",queue.size())
-queue.deque()
-print("after deque")
-queue.displayList()
+    
+if __name__ == "__main__":            
+    queue = MyQueue()
+    queue.enque(2)
+    queue.enque(3)
+    queue.enque(4)
+    queue.enque(6)
+    queue.enque(7)
+    queue.enque(8)
+    queue.enque(9)
+    queue.enque(10)
+    print("before deque")
+    queue.displayList()
+    print("Front",queue.getFront())
+    print("Rear",queue.getRear())
+    print("size",queue.size())
+    queue.deque()
+    print("after deque")
+    queue.displayList()
