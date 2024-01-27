@@ -1,3 +1,4 @@
+"""Implementing a stack using deque collections"""
 from collections import deque
 
 stack = deque()

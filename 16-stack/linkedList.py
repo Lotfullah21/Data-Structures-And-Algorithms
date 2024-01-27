@@ -1,7 +1,9 @@
+"""Implementation of stack using linked list"""
 class StackNode:
     def __init__(self, key):
         self.data = key
         self.next = None
+        
 class MyStack:
     def __init__(self):
         self.head = None
@@ -38,18 +40,20 @@ def displayList(head):
         temp = temp.next    
     print()
             
-stack = MyStack()
-stack.push(10)
-stack.push(20)
-stack.push(30)
-stack.push(10)
-stack.push(20)
-stack.push(30)
-stack.push(10)
-stack.push(20)
-stack.push(30)
-displayList(stack.head)
-print("pop",stack.pop())
-print("size",stack.size())
-print("peek",stack.peek())
+                
+if __name__ == "__main__":      
+    stack = MyStack()
+    stack.push(10)
+    stack.push(20)
+    stack.push(30)
+    stack.push(10)
+    stack.push(20)
+    stack.push(30)
+    stack.push(10)
+    stack.push(20)
+    stack.push(30)
+    displayList(stack.head)
+    print("pop",stack.pop())
+    print("size",stack.size())
+    print("peek",stack.peek())
 

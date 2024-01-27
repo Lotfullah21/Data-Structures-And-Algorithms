@@ -10,7 +10,5 @@ def removeAdjacentDuplicate(s: str) ->str:
             stack.pop()
     newString = "".join(stack)
     return newString 
-
-
 result = removeAdjacentDuplicate("abbbccde")
 print(result)
