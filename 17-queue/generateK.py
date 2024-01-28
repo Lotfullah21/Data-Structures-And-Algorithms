@@ -26,3 +26,23 @@ def generateKtOneAndTwo(k):
 result = generateKtOneAndTwo(k)
 print("result", result)
 print(q)
+
+
+
+def FrequencyQueries(arr, queries):
+    freqMap = {}
+
+    for num in arr:
+        if num in freqMap:
+            freqMap[num] += 1
+        else:
+            freqMap[num] = 1
+
+    result = []
+    for num in queries:
+        if num in freqMap:
+            result.append(freqMap[num])
+        else:
+            result.append(0)
+
+    return result
