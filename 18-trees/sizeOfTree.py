@@ -1,8 +1,8 @@
 """
 size of a tree have been defined as the number of nodes in a tree.
+use a recursive method to find it.
 
 """
-
 
 # Node Class:
 class Node:

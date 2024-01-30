@@ -1,5 +1,5 @@
 
-
+"calculate and return sum of individual node's value in a tree."
 # Node Class:
 class Node:
     def __init__(self,val):
