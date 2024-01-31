@@ -3,7 +3,6 @@ def main():
     arr = list(map(int, input().split()))
     print(unique(arr))
     
-    
 
 def unique(arr):
     n = len(arr)
