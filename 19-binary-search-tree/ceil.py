@@ -51,6 +51,7 @@ def ceil(root: Node,x: int) -> int:
         elif root.data>x:
             # keep an eye on the answer, if you cannot find the closest greater number, the current answer can be a potential answer.
             answer = root.data
+            # discard the right.
             root = root.left
         # answer is in the place where the current node becomes < x.
         else:
