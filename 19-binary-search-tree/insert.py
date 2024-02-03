@@ -1,6 +1,11 @@
 
 """
+
 Add an element to a BST
+If tree is empty create a new one with the given key
+If key is already present, do not change anything; just return from the tree.
+Insertion will be made at the leaf node.
+
 Input:      20
              \ 
               41 
