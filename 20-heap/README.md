@@ -45,4 +45,63 @@ when we use heap, removing an element from queue can be done in constant time (O
 
 `return heapq.heappop(heap)` returns the last element remained element from our heap.
 
-or just we could use `return heap[k-1]` to return last element, we used loop for better illustration
+or just we could use `return heap[k-1]` to return last element, we used loop for better illustration.
+
+### Find Kth largest number in a given array
+
+<a href="https://leetcode.com/problems/kth-largest-element-in-an-array/description/" target="_blank">leetCode</a>
+
+#### Idea-1(Naive Solution)
+
+sort the given array and print kth largest element using indexing.
+
+#### Time Complexity
+
+above method takes O(Nlog(N) + N), because sorting operation takes NlogN and N iteration to get the element from the give array.
+
+#### Implementation:
+
+```py
+
+    def findKthLargest(self, nums: list, k: int) -> int:
+        "return kth largest element in an array"
+        nums.sort()
+        return nums[len(nums)-k]
+```
+
+#### Idea-2(Priority Queue)
+
+1. keep k elements in a queue.
+2. compare those k elements with the remaining elements in the array
+3. if array's elements are greater than k's elements, remove smaller elements from k and replace it with larger values from the remaining array elements.
+4. at the end return the first element, because in a heap data structure it keeps the element in increasing order(bst tree order) and the first element in the heap will be the kth element from reverse order of an array
+
+```py
+    def findKthLargest(self, nums: list, k: int) -> int:
+        "return kth largest element in an array"
+        # in the heap list keep k largest elements
+        heap = []
+        for i in range(0,k):
+            # add k elements to the heap
+            heap.append(nums[i])
+            print("heap",heap)
+        # convert it to a priority queue
+        heapq.heapify(heap)
+        print("min-heap",heap)
+        for i in range(k,len(nums)):
+            # check if the first element in the heap is larger than the array's element.
+            if heap[0]<nums[i]:
+                # if so, remove the first element.
+                heapq.heappop(heap)
+                # add the larger element to the array
+                heapq.heappush(heap, nums[i])
+                print(heap)
+        return heap[0]
+
+```
+
+```py
+heapq.heappop(heap)
+```
+
+it removes the first element from a queue.

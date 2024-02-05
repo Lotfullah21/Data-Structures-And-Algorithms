@@ -15,7 +15,8 @@ array is 4.
 """
 import heapq
 class Solution:
-    def kthSmallest(self,arr, k):
+    def kthSmallest(self,arr: list, k: int) -> int:
+        "returns the kth smallest element in arr"
         # heap = arr[:k]
         heap = []
         heapq.heapify(heap)
