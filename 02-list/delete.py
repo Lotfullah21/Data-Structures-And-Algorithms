@@ -16,4 +16,3 @@ def deleteFromArray(arr,n,idx):
     del arr[idx]
     arr.append(0)
     return arr
- 

@@ -106,7 +106,7 @@ class Node:
 
 
 def getSuccess(root: Node) -> int:
-    "go to the left most side of the first node on the right side of the node and return the node's value. that value is the closest value to the root node which is greater than root node."
+    "go to the left most side of the first node on the right side of the node and return the node's value. that value is the closest value to the root node which is greater than root node.fffff"
     while root.left!=None:
         root = root.left
     return root.data
