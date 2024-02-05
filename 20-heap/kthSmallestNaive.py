@@ -13,7 +13,6 @@ array is 4.
 
 
 """
-import heapq
 class Solution:
     def kthSmallest(self,arr, k):
         arr.sort()
