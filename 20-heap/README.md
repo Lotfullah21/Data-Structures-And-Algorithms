@@ -106,7 +106,7 @@ heapq.heappop(heap)
 
 it removes the first element from a queue.
 
-3. # Find the median in a data stream:
+# Find the median in a data stream:
 
 <a href="https://leetcode.com/problems/find-median-from-data-stream/submissions/1167963748/" target="_blank">leetcode</a>
 
