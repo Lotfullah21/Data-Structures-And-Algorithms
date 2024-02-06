@@ -47,7 +47,7 @@ when we use heap, removing an element from queue can be done in constant time (O
 
 or just we could use `return heap[k-1]` to return last element, we used loop for better illustration.
 
-2. # Find Kth largest number in a given array
+# Find Kth largest number in a given array
 
 <a href="https://leetcode.com/problems/kth-largest-element-in-an-array/description/" target="_blank">leetcode</a>
 
