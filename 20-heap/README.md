@@ -1,4 +1,4 @@
-1. # Find Kth smallest number in a given array
+ # Find Kth smallest number in a given array
 
 #### Idea-1 (Naive)
 
