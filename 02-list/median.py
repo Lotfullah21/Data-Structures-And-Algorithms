@@ -5,7 +5,7 @@ If there are odd elements, the median is simply the middle element in the sorted
 If there are even elements, then the median is floor of average of two middle numbers in the sorted array. If mean is floating point number, then we need to print floor of it.
 
 mean(): It takes the array and its size N as parameters and returns the mean as an integer.
-median(): It takes the array and its size N as parameters and returns the median as an integer.
+median(): It takes the array and its size N as parameters and returns the median as an integer, the array should be sorted from least to greatest.
 
 """
 class Solution:
@@ -15,7 +15,9 @@ class Solution:
         
         A.sort()
         if N%2==0:
-            return A[N//2-1]
+            # if it is even, return the avg of the middle numbers.
+            avg = (A[N/2-1]+ A[N/2])/2
+            return avg
         else:
             return A[N//2]
             
