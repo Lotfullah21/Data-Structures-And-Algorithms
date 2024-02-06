@@ -108,7 +108,7 @@ it removes the first element from a queue.
 
 ### Find the median in a data stream:
 
-<link href="https://leetcode.com/problems/find-median-from-data-stream/submissions/1167963748/" target="_blank">leetcode</a>
+<a href="https://leetcode.com/problems/find-median-from-data-stream/submissions/1167963748/" target="_blank">leetcode</a>
 `median:` it is middle of an element if the list is sorted and the number of items are odd, if even, it is the average of two middle number.
 For instance:
 `list1 = [1,2,3,4,5]` in this list, median is 3.
