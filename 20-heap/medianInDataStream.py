@@ -25,7 +25,6 @@ class MedianFinder:
         else:
             # if sizes are not the same, the first element in max-heap is our median.
             return -self.small[0]
-
 medianFinder= MedianFinder()
 medianFinder.addNum(1)
 medianFinder.addNum(2)
