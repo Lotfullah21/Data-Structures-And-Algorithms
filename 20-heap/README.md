@@ -49,7 +49,7 @@ or just we could use `return heap[k-1]` to return last element, we used loop for
 
 # Find Kth largest number in a given array
 
-<a href="https://leetcode.com/problems/kth-largest-element-in-an-array/description/" target="_blank">leetcode</a>
+<a href="https://leetcode.com/problems/kth-largest-element-in-an-array/description/" target="_blank">leetcFFode</a>
 
 #### Idea-1(Naive Solution)
 
