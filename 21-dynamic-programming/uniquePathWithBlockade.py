@@ -1,33 +1,41 @@
+"""
+Input format
+3 3
+1 1 1
+1 1 1
+1 1 1
+Output: 6
+"""
+
+
 def main():
     m, n = map(int, input().split())
 
-    arr = []
+    matrix = []
     for _ in range(m):
         row = list(map(int, input().split()))
-        arr.append(row)
+        matrix.append(row)
 
     dp = [[-1 for _ in range(n)] for _ in range(m)]
-    ans = findPath(arr, m - 1, n - 1, dp)
-    print(ans)
-    
+    numberOfUniquePaths = findPath(matrix, m - 1, n - 1, dp)
+    print("Number of unique paths =",numberOfUniquePaths)
 
-def findPath(arr, sr, sc, dp):
-    m, n = len(arr), len(arr[0])
+def findPath(matrix, row, column, dp):
+    m, n = len(matrix), len(matrix[0])
 
-    if sr < 0 or sc < 0 or arr[sr][sc] == 0:
+    if row < 0 or column < 0 or matrix[row][column] == 0:
         return 0
 
-    if sr == 0 and sc == 0:
+    if row == 0 and column == 0:
         return 1
 
-    if dp[sr][sc] != -1:
-        return dp[sr][sc]
+    if dp[row][column] != -1:
+        return dp[row][column]
+    path1 = findPath(matrix, row - 1, column, dp)
+    path2 = findPath(matrix, row, column - 1, dp)
 
-    path1 = findPath(arr, sr - 1, sc, dp)
-    path2 = findPath(arr, sr, sc - 1, dp)
-
-    dp[sr][sc] = path1 + path2
-    return dp[sr][sc]
+    dp[row][column] = path1 + path2
+    return dp[row][column]
 
 
 if __name__ == "__main__":
