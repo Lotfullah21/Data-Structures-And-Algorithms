@@ -1,5 +1,3 @@
-
-
 """
 There are n stairs, a person standing at the bottom wants to reach the top. The person can climb either 1 stair or 2 stairs at a time. 
 Count the number of ways, the person can reach the top (order does matter).
@@ -21,5 +19,5 @@ class Solution:
         step2 = self.climbStairsHelper(n - 2)
 
         self.dp[n] = (step1 + step2)%1000000007
-
+# added a new line
         return self.dp[n]
