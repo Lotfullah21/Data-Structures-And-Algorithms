@@ -1,11 +1,14 @@
 from typing import List
 class Solution:
     def printGraph(self, V: int, edges: List[List[int]]) -> List[List[int]]:
+        
         adj_list = [[] for _ in range(V)]
         for edge in edges:
+            
             u, v = edge
             adj_list[u].append(v)
             adj_list[v].append(u)
+            
         return adj_list
 
 solution = Solution()
