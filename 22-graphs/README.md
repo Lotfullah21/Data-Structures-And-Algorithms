@@ -2,6 +2,7 @@
 
 it is same as level order traversal where the edges are printed in level by level from sources node.
 by level, we mean how many edges away are those nodes from source node.
+![Basic Graph](https://github.com/Lotfullah21/data-structure-and-algorithms/assets/85621380/6702e1f0-f83c-476c-b601-e3503144cfb4)
 
 #### Algorithm to solve BFS:
 
@@ -18,3 +19,6 @@ For deciding the source node where you are going to measure the other nodes from
    2. If its neighbors are not in the visited list(added to the queue):
       1. Add them to the queue.
       2. Make that specific index boolean value inside our visited list as True.
+
+
+
