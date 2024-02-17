@@ -3,6 +3,9 @@
 linear ordering of a graph such that for every directed edge (u,v), vertex u comes before v in the ordering.
 it is only possible for direct and acyclic graph, because we want to preserve the ordering, if it is not directed or it has circle, then there is no ordering.
 
+![sort](https://github.com/Lotfullah21/data-structure-and-algorithms/assets/85621380/c3ee07ce-8f97-4128-93b5-7faa94a974aa)
+
+
 ### Kahn's Algorithm
 
 1. Create an inDegree array:
