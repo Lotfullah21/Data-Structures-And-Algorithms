@@ -16,12 +16,11 @@ class Solution:
             if inDegree[i]==0:
                 q.append(i)
         # use a queue
-        i = 0
+        count = 0
         while q:
             node = q.popleft()
             # add the popped element to the topological array
-            topologicalArray[i] = node
-            i += 1
+            count  = count + 1
             # For that particular node
             for v in adj[node]:
                 # Reduce its inDegree
@@ -29,7 +28,10 @@ class Solution:
                 # If inDegree becomes zero, add that element to the queue
                 if inDegree[v] == 0:
                     q.append(v)
-        return topologicalArray
+        if count == V:
+            return False
+        else:
+            return True
     
 if __name__ == "__main__":
     V, E = map(int, input().split())
@@ -37,8 +39,9 @@ if __name__ == "__main__":
     for _ in range(E):
         u, v = map(int, input().split())
         adj[u].append(v)
-    result = Solution.topoSort(V, adj)
-    for vertex in result:
-        print(vertex, end=" ")
-    print()
+    if Solution.topoSort(V, adj):
+        print("Cycle is detected")
+    else:
+        print("Cycle is not detected")
+
 
