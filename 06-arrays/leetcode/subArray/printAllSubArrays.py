@@ -4,8 +4,7 @@ def printSubArray(arr: list) -> list[list]:
         for e in range(s, n+1):
             for i in range(s, e):
                 print(arr[i],end="")
-            print()
-                    
+            print()            
 arr  = [1, 2, 3, 4]
 result = printSubArray(arr)
 print(result)

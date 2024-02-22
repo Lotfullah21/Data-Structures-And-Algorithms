@@ -12,3 +12,6 @@ def printSubArraySum(arr: list) -> list[int]:
 arr = [1, 2, 3, 4]
 result = printSubArraySum(arr)
 print(result)
+
+
+
