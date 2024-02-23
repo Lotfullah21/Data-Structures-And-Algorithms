@@ -5,7 +5,7 @@ def printSubArraySum(arr: list) -> list:
         occurrence = (i+1)*(n-i)
         ans = ans + occurrence * arr[i]
     return ans
-                                
+                  
 arr = [5,3,-1,8]
 result = printSubArraySum(arr)
 print(result)
