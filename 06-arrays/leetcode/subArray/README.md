@@ -46,3 +46,40 @@ result = printSubArraySum(arr)
 print(result)
 
 ```
+
+```py
+def printSubArraySum(arr: list) -> list[int]:
+    n = len(arr)
+    subarray_sum = []
+    for s in range(n):
+        sum = 0
+        for e in range(s, n):
+            # It just adds the sum, it does not generate sub arrays.
+            sum += arr[e]
+            subarray_sum.append(sum)
+    return subarray_sum
+
+arr = [1, 2, 3, 4]
+result = printSubArraySum(arr)
+print(result)
+
+when s = 0 and e also starts from 0 to len(array)
+s = 0; e = 0
+subarray = [1]
+total = 0 + arr[0] = 1
+subarrar_sum = [1]
+s = 0; e = 1
+subarray = [1, 2]
+total = 1 + arr[1] = 1+2 = 3
+subarrar_sum = [1,3]
+s = 0; e = 2
+[1,2,3]
+total = 3 + arr[2] = 3 + 3 = 6
+subarrar_sum = [1,3,6]
+s = 0; e = 3
+[1,2,3,4]
+total = 6 + arr[3] = 10
+subarrar_sum = [1,3,6,10]
+it can continue for all other indices and generate the sum for each individual index.
+
+```

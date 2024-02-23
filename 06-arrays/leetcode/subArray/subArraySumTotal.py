@@ -9,7 +9,6 @@ def printSubArraySum(arr: list) -> list:
     # Keep a reference to total variable
     total = 0
     for s in range(n):
-        
         for e in range(s, n):
             if s==0:
                 total = pf[e] + total
