@@ -1,4 +1,4 @@
-def boundaryTraversal(arr: list) -> list:
+def boundaryTraversal(self, arr,n,m) -> list:
     row = len(arr)
     col = len(arr[0])
     new_arr = []
@@ -17,14 +17,3 @@ def boundaryTraversal(arr: list) -> list:
             print(arr[row-1][i], end=",")
         for i in range(row-2,0,-1):
             print(arr[i][0],end=",")
-    print()
-            
-            
-#User function Template for python3
-
-
-            
-arr = [[col+1 for col in range(5)] for row in range(10)]
-arr = [[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15]]
-boundaryTraversal(arr)
-
