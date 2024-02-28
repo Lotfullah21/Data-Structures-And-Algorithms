@@ -8,3 +8,4 @@ Sorting, itself takes O(NlogN) and checking for each index takes O(N) times, so 
 But, based on the question, the time complexity should not exceed `O(N)`.
 
 ## Idea-2: Using Swap Operation
+ 
