@@ -1,5 +1,9 @@
 ### Sorting:
 
+arranging data in increasing or decreasing order based on natural order or some specific parameters.
+
+parameters can be length of a string, number of digits,etc.
+
 in python there are two methods to sort the elements
 
 1. ##### sort()
