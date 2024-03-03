@@ -8,8 +8,6 @@ def bubbleSort(arr: list) -> list:
                 arr[j+1] = temp
     return arr
 
-
-
 array = [1, 0, 12, -2, 4, 5, 6, 2, 4, 3]
 sorted = bubbleSort(array)
 print("Sorted Array:", sorted)
