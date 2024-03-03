@@ -115,3 +115,16 @@ for i in l:
     print(i.x, i.y)
 
 ```
+
+### sorted():
+
+This method works for any kind of iterable and always returns a list.
+
+```py
+d = {1:"gfg",2:"leetcode",3:"hoshmandlab"}
+# Sorts based on the keys.
+new_dict = sorted(d)
+print(new_dict, type(new_dict))
+Output:
+[1, 2, 3] <class 'list'>
+```
