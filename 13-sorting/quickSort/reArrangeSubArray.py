@@ -7,8 +7,9 @@ c) all elements >arr[start] should go to right side of arr[start]
 
 It does not mean all elements to the right and left hand side should be sorted.
 """
-
+# import random
 def reArrangeSubArray(arr: list, start: int, end: int) -> list:
+    # start = random.randint(start, end)
     p1 = start + 1
     p2 = end
     while p1<=p2:
@@ -29,5 +30,6 @@ def reArrangeSubArray(arr: list, start: int, end: int) -> list:
     
 
 arr = [10, 4, 5, 17, 6, 1, 29, 18, 2, 11, -1]
-reArrangeSubArray(arr, 1, 6)
+n = len(arr)-1
+reArrangeSubArray(arr, 0, n)
 print(arr)

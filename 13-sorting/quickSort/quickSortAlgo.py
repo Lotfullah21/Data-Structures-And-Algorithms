@@ -1,3 +1,4 @@
+import random
 class Solution:
     #Function to sort a list using quick sort algorithm.
     def quickSort(self,arr,low,high):
@@ -8,6 +9,7 @@ class Solution:
         self.quickSort(arr,p+1, high)
     
     def reArrangeSubArray(self,arr,low,high):
+        # start = random.randint(low, high)
         p1 = low
         p2 = high
         while p1<=p2:
