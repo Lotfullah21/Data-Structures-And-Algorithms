@@ -7,7 +7,7 @@ c) all elements >arr[0] should go to right side of arr[0]
 
 It does not mean all elements to the right and left hand side should be sorted.
 """
-
+import random
 def reArrange(arr: list) -> list:
     n = len(arr)
     s = 0

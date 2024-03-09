@@ -133,3 +133,7 @@ The base case is when the left and right side cross each other or start index ==
   So, the `reArrangeArray` takes `O(N)` operations, and if `quickSort` is also called `N` times, then, the time complexity would be `O(N^2)`.
 
 - Space complexity is the stack space we are using to call the functions repeatedly and that is `O(N)`.
+
+#### Note:
+
+On average, the time complexity is `O(NlogN)` and space complexity is `O(logN)`
