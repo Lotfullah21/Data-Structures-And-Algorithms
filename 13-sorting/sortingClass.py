@@ -17,9 +17,6 @@ for i in l:
 
 
 
-
-
-
 t = (1, 4, 5, 6, 7, 0, 2, 3)
 new_tuple= sorted(t)
 print(new_tuple, type(new_tuple))
