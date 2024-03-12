@@ -1,3 +1,13 @@
+## Two Pointers:
+
+Try using two pointers when there is need of checking all the pairs, but it does not mean it can applied to all the problems.
+
+#### Before Using Pointers.
+
+- Where to initialize two pointers.
+- Step-2: Update your pointers.
+- Step-3: When to stop
+
 <a href="https://leetcode.com/problems/two-sum/">leetcode</a>
 
 ### Idea-1: Brute Force
