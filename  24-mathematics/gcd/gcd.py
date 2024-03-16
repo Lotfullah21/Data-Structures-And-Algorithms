@@ -7,4 +7,3 @@ class Solution:
         
 solution = Solution()
 result = solution.gcd(0, 10)
-print(result)
