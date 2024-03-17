@@ -41,4 +41,5 @@ print(result)
 #### Idea-2:
 
 `Time Complexity` is `O(NlogN)`.
+
 `Space Complexity` is `O(N)` for prefix ans suffix calculations.
