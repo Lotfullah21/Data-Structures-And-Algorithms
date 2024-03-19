@@ -1,4 +1,4 @@
-<a href="https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/">leetcode</a>
+<a href="https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1">GFG</a>
 
 #### Analysis:
 
