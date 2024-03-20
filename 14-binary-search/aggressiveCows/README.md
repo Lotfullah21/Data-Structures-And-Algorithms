@@ -8,7 +8,7 @@ The second line contains n space-separated integers denoting the position of the
 
 #### Analysis:
 
-`Time Complexity` is `O(log(sum-max)*N)`, where N is number of elements in the weights array that we need iterate over all of them to find the required days.
+`Time Complexity` is `O(log(high-low)*N)`, where N is number of elements in the weights array that we need iterate over all of them to find the required days.
 
 `Space Complexity` is `O(1)`
 
