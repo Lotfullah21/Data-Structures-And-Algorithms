@@ -1,10 +1,20 @@
 # Data Structures and Algorithms Solutions
 
+## Data Structure:
+
+The way to organize data in main memory
+
+## Algorithm:
+
+The sequence of steps to solve a problem.
+
 Welcome to my repository for Data Structures and Algorithms solutions! Here, I share my solutions and implementations for various DSA problems, organized by topics.
 
 ## Table of Contents
 
 - [Data Structures and Algorithms Solutions](#data-structures-and-algorithms-solutions)
+  - [Data Structure:](#data-structure)
+  - [Algorithm:](#algorithm)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Folder Structure](#folder-structure)
