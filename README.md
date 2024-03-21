@@ -1,4 +1,4 @@
-# Data Structures and Algorithms Solutions
+# Data Structures and Algorithms 
 
 #### Data Structure:
 
