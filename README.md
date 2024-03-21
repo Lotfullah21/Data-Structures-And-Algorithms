@@ -9,15 +9,13 @@ The way to organize data in main memory
 The sequence of steps to solve a problem.
 
 ![Note 22 Mar 2024 (2)](https://github.com/Lotfullah21/Data-Structures-And-Algorithms/assets/85621380/14ec652f-5853-40ae-b38e-4804b78ca68f)
-
+<img src="./assets/image.jpeg"><>
 
 Welcome to my repository for Data Structures and Algorithms solutions! Here, I share my solutions and implementations for various DSA problems, organized by topics.
 
 ## Table of Contents
 
-- [Data Structures and Algorithms Solutions](#data-structures-and-algorithms-solutions)
-  - [Data Structure:](#data-structure)
-  - [Algorithm:](#algorithm)
+- [Data Structures and Algorithms Solutions](#data-structures-and-algorithms-solutions) - [Data Structure:](#data-structure) - [Algorithm:](#algorithm)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Folder Structure](#folder-structure)
