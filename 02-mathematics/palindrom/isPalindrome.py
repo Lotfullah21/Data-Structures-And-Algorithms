@@ -4,7 +4,7 @@ class Palindrome:
         reversed = 0
         while temp>0:
             lastDigit = temp%10
-            reversed = reversed * 10 + lastDigit
+            reversed = reversed * 10 + lastDigitg
             temp = temp//10
         if reversed == number:
             return True
