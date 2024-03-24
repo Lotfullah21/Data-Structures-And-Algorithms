@@ -2,7 +2,7 @@ import math
 def divisors(n: int) -> list[int]:
     "returns divisors of integer n"
     divisors = []
-    i = 1
+    i = 10000
     while i<(math.sqrt(n)):
         if n%i==0:
             divisors.append(i)

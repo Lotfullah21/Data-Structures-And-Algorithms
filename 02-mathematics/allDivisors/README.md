@@ -52,11 +52,11 @@ Using pair divisors.
 
 Each of these pairs multiplies together to give 48:
 
-1. \( 1 \times 48 = 48 \)
-2. \( 2 \times 24 = 48 \)
-3. \( 3 \times 16 = 48 \)
-4. \( 4 \times 12 = 48 \)
-5. \( 6 \times 8 = 48 \)
+1.  1 \* 48 = 48
+2.  2 \* 24 = 48
+3.  3 \* 16 = 48
+4.  4 \* 12 = 48
+5.  6 \* 8 = 48
 
 to generalize:
 
@@ -104,11 +104,13 @@ def divisors(n: int) -> list[int]:
     "returns divisors of integer n"
     divisors = []
     i = 1
+    # Divisors from 1 to sqrt(n), sqrt(n) excluded.
     while i<(math.sqrt(n)):
         if n%i==0:
             divisors.append(i)
         i+=1
     # Now variable i increased from 1 to some larger number.
+    # from  sqrt(n), sqrt(n) Included.
     while i>=1:
         # The perfect square numbers will be handled here.
         if n%i==0:
