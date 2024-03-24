@@ -11,8 +11,6 @@ def power(x, n):
     else:
         return temp * x
 
-
- 
  
 base = int(input("Enter the base: "))
 exp = int(input("Enter the exponent: "))
