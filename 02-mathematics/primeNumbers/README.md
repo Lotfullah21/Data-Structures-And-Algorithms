@@ -64,3 +64,18 @@ class Prime:
 
 `Time Complexity` is `O(sqrt(N))` if the number is a prime number and we have to execute the loop `sqrt(n)` times.
 `Space Complexity` is `O(1)` no extra space is used.
+
+#### Idea-4:
+
+```py
+
+def isPrime(num):
+            if num == 2 or num == 3:
+                return True
+            if num == 1 or num % 2 == 0:
+                return False
+            for i in range(3, int(math.sqrt(num)) + 1, 2):
+                if num % i == 0:
+                    return False
+            return True
+```
