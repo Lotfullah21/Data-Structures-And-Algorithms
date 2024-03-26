@@ -1,10 +1,14 @@
 class Solution:
 
-    def rotateArr(self, arr, D, N):
-        D = D % N  # Adjust D to be within the range of the array
-        self.reverse(arr, 0, D - 1)
-        self.reverse(arr, D, N - 1)
-        self.reverse(arr, 0, N - 1)
+    def rotateArr(self, arr, K, N):
+        # Number of effective rotation, because after len(arr) rotation the array will be same.
+        K = K % N 
+        # Reverse Whole array
+        self.reverse(arr, 0, N-1)
+        # Reverse up to first K element.
+        self.reverse(arr, 0, K - 1)
+        # reverse after Kth element.
+        self.reverse(arr, K, N - 1)
         return arr
 
 
