@@ -20,7 +20,7 @@ def countaaaOverlapping(st, idx, count):
         return temp
 
 if __name__ == "__main__":
-    st = input()
+    st = input("Enter a string: ")
 
     print(countaaaOverlapping(st, 0, 0))
     print(countaaaNonOverlapping(st, 0, 0))
