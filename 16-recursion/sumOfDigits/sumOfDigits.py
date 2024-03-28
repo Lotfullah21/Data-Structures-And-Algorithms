@@ -6,9 +6,18 @@ class Solution:
         :return: sum of digits of n.
         '''
         # code here
-        if n<=0:
-            return 0
-        if n==1:
-            return 1
+        if n<10:
+            return n
+        
         else:
             return self.sumOfDigits(n//10) + (n%10)
+        
+
+
+def main():
+    if __name__ == "__main__":
+        solution = Solution()
+        result = solution.sumOfDigits(234)
+        print(result)
+    
+main()

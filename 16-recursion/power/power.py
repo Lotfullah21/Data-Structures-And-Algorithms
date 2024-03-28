@@ -1,16 +1,4 @@
-""" Calculate a raised to the power b.
 
-a raised to the power of a number is multiplying a that many times.
-a^b = a * a * a * a * ... * b.
-2^4 = 2 * 2 * 2 * 2
-
-we can write 2^4 = 2 * 2^3, 
-Hence, a^b = a * a^b-1
-
-when b==1, a^b = a^1 = a
-Hence, 2^1 = 2. So b==1 can be considered as a bases case where we return 'a' itself,
-
-"""
 def main():
     a = int(input("Enter the base: "))
     N = int(input("Enter the power: "))
