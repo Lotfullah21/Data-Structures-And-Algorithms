@@ -30,41 +30,42 @@ Within each folder, you'll find solutions to general DSA problems as well as sol
 
 ## Table of Contents:
 
-| Folder Name             | Description                                     | Link                                                            |
-| ----------------------- | ----------------------------------------------- | --------------------------------------------------------------- |
-| .vscode                 | VS Code settings and configurations             | `<a href="./.vscode/">.vscode</a>`                              |
-| 01-analysis             | analysis of algorithms                          | `<a href="./01-analysis-of-algorithms/">mathematics</a>`        |
-| 02-mathematics          | Mathematics related solutions                   | `<a href="./02-mathematics/">mathematics</a>`                   |
-| 03-list                 | List related solutions                          | `<a href="./03-list/">list</a>`                                 |
-| 04-tuples               | Tuples related solutions                        | `<a href="./04-tuples/">tuples</a>`                             |
-| 05-sets                 | Sets related solutions                          | `<a href="./05-sets/">sets</a>`                                 |
-| 06-functions            | Functions related solutions                     | `<a href="./06-functions/">functions</a>`                       |
-| 06-loops                | Loops related solutions                         | `<a href="./06-loops/">loops</a>`                               |
-| 08-patterns             | Patterns related solutions                      | `<a href="./08-patterns/">patterns</a>`                         |
-| 09-arrays               | Arrays related solutions                        | `<a href="./09-arrays/">arrays</a>`                             |
-| 10-bits                 | Bit manipulation related solutions              | `<a href="./10-bits/">bits</a>`                                 |
-| 11-dictionary           | Dictionary related solutions                    | `<a href="./11-dictionary/">dictionary</a>`                     |
-| 12-hashmap              | Hashmap related solutions                       | `<a href="./12-hashmap/">hashmap</a>`                           |
-| 14-searching            | Searching algorithms solutions                  | `<a href="./14-searching/">searching</a>`                       |
-| 15-sorting              | Sorting algorithms solutions                    | `<a href="./15-sorting/">sorting</a>`                           |
-| 16-recursion            | Recursion related solutions                     | `<a href="./16-recursion/">recursion</a>`                       |
-| 16-stack/minStack       | Stack related solutions                         | `<a href="./16-stack/minStack/">stack/minStack</a>`             |
-| 17-string               | String manipulation solutions                   | `<a href="./17-string/">string</a>`                             |
-| 18-linked-list          | Linked List data structure solutions            | `<a href="./18-linked-list/">linked-list</a>`                   |
-| 18-trees                | Tree data structure solutions                   | `<a href="./18-trees/">trees</a>`                               |
-| 19-binary-search-tree   | Binary Search Tree data structure solutions     | `<a href="./19-binary-search-tree/">binary-search-tree</a>`     |
-| 19-stack                | Stack data structure solutions                  | `<a href="./19-stack/">stack</a>`                               |
-| 21-queue                | Queue data structure solutions                  | `<a href="./21-queue/">queue</a>`                               |
-| 22-graphs               | Graph data structure solutions                  | `<a href="./22-graphs/">graphs</a>`                             |
-| 24-heap                 | Heap data structure solutions                   | `<a href="./24-heap/">heap</a>`                                 |
-| 26-dynamic-programming  | Dynamic Programming solutions                   | `<a href="./26-dynamic-programming/">dynamic-programming</a>`   |
-| 27-graphs               | More Graph data structure solutions             | `<a href="./27-graphs/">graphs</a>`                             |
-| 28-two-pointers         | Two Pointers technique solutions                | `<a href="./28-two-pointers/">two-pointers</a>`                 |
-| 29-advanced-mathematics | Advanced Mathematics solutions                  | `<a href="./29-advanced-mathematics/">advanced-mathematics</a>` |
-| assets                  | Various assets like images, etc.                | `<a href="./assets/">assets</a>`                                |
-| leetcode                | Solutions related to LeetCode problems          | `<a href="./leetcode/">leetcode</a>`                            |
-| python-helper           | Helper files and utilities for Python solutions | `<a href="./python-helper/">python-helper</a>`                  |
-|                         |
+| Folder Name             | Description                                     | Link                                                          |
+| ----------------------- | ----------------------------------------------- | ------------------------------------------------------------- |
+| .vscode                 | VS Code settings and configurations             | <a href=./.vscode/> .vscode </a>                              |
+| 02-mathematics          | Mathematics related solutions                   | <a href=./02-mathematics/> mathematics </a>                   |
+| 03-list                 | List related solutions                          | <a href=./03-list/> list </a>                                 |
+| 04-tuples               | Tuples related solutions                        | <a href=./04-tuples/> tuples </a>                             |
+| 05-sets                 | Sets related solutions                          | <a href=./05-sets/> sets </a>                                 |
+| 06-functions            | Functions related solutions                     | <a href=./06-functions/> functions </a>                       |
+| 06-loops                | Loops related solutions                         | <a href=./06-loops/> loops </a>                               |
+| 08-patterns             | Patterns related solutions                      | <a href=./08-patterns/> patterns </a>                         |
+| 09-arrays               | Arrays related solutions                        | <a href=./09-arrays/> arrays </a>                             |
+| 10-bits                 | Bit manipulation related solutions              | <a href=./10-bits/> bits </a>                                 |
+| 11-dictionary           | Dictionary related solutions                    | <a href=./11-dictionary/> dictionary </a>                     |
+| 12-hashmap              | Hashmap related solutions                       | <a href=./12-hashmap/> hashmap </a>                           |
+| 14-searching            | Searching algorithms solutions                  | <a href=./14-searching/> searching </a>                       |
+| 15-sorting              | Sorting algorithms solutions                    | <a href=./15-sorting/> sorting </a>                           |
+| 16-recursion            | Recursion related solutions                     | <a href=./16-recursion/> recursion </a>                       |
+| 16-stack/minStack       | Stack related solutions                         | <a href=./16-stack/minStack/> stack/minStack </a>             |
+| 17-string               | String manipulation solutions                   | <a href=./17-string/> string </a>                             |
+| 18-linked-list          | Linked List data structure solutions            | <a href=./18-linked-list/> linked-list </a>                   |
+| 18-trees                | Tree data structure solutions                   | <a href=./18-trees/> trees </a>                               |
+| 19-binary-search-tree   | Binary Search Tree data structure solutions     | <a href=./19-binary-search-tree/> binary-search-tree </a>     |
+| 19-stack                | Stack data structure solutions                  | <a href=./19-stack/> stack </a>                               |
+| 21-queue                | Queue data structure solutions                  | <a href=./21-queue/> queue </a>                               |
+| 22-graphs               | Graph data structure solutions                  | <a href=./22-graphs/> graphs </a>                             |
+| 24-heap                 | Heap data structure solutions                   | <a href=./24-heap/> heap </a>                                 |
+| 26-dynamic-programming  | Dynamic Programming solutions                   | <a href=./26-dynamic-programming/> dynamic-programming </a>   |
+| 27-graphs               | More Graph data structure solutions             | <a href=./27-graphs/> graphs </a>                             |
+| 28-two-pointers         | Two Pointers technique solutions                | <a href=./28-two-pointers/> two-pointers </a>                 |
+| 29-advanced-mathematics | Advanced Mathematics solutions                  | <a href=./29-advanced-mathematics/> advanced-mathematics </a> |
+| assets                  | Various assets like images, etc.                | <a href=./assets/> assets </a>                                |
+| leetcode                | Solutions related to LeetCode problems          | <a href=./leetcode/> leetcode </a>                            |
+| python-helper           | Helper files and utilities for Python solutions | <a href=./python-helper/> python-helper </a>                  |
+| README.md               | Main README file for the repository             | <a href=./README.md> README.md </a>                           |
+
+| |
 
 ## List of Topics
 
