@@ -30,5 +30,3 @@ class Solution:
 
 x = Solution()
 print(x.isPalindrome(121))
-print(1221%10)
-print(121//10)

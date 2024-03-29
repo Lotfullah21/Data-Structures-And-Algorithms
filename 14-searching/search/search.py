@@ -1,7 +1,7 @@
 def main():
-    n = int(input())
-    arr = list(map(int, input().split()))
-    k = int(input())
+    # n = int(input())
+    arr = list(map(int, input("Enter an array: ").split()))
+    k = int(input("Enter the element you are looking: "))
     search = searchBinary(arr,k)
     if search:
         print("true")
