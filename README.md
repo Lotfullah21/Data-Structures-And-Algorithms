@@ -28,42 +28,43 @@ This repository is a collection of my solutions to common Data Structures and Al
 Each folder corresponds to a specific DSA topic, containing solutions in python programming language. Feel free to explore and use these solutions for learning and reference purposes.
 Within each folder, you'll find solutions to general DSA problems as well as solutions to <a href="https://leetcode.com/problemset/?difficulty=EASY&page=1&topicSlugs=array">LeetCode</a> problems related to that topic.
 
-## Table of Contents
+## Table of Contents:
 
-| Folder Name             | Description                                     | Link                                                           |
-| ----------------------- | ----------------------------------------------- | -------------------------------------------------------------- |
-| .vscode                 | VS Code settings and configurations             | [Link](https://github.com/Lotfullah21/.vscode)                 |
-| 02-mathematics          | Mathematics related solutions                   | [Link](https://github.com/Lotfullah21/02-mathematics)          |
-| 03-list                 | List related solutions                          | [Link](https://github.com/Lotfullah21/03-list)                 |
-| 04-tuples               | Tuples related solutions                        | [Link](https://github.com/Lotfullah21/04-tuples)               |
-| 05-sets                 | Sets related solutions                          | [Link](https://github.com/Lotfullah21/05-sets)                 |
-| 06-functions            | Functions related solutions                     | [Link](https://github.com/Lotfullah21/06-functions)            |
-| 06-loops                | Loops related solutions                         | [Link](https://github.com/Lotfullah21/06-loops)                |
-| 08-patterns             | Patterns related solutions                      | [Link](https://github.com/Lotfullah21/08-patterns)             |
-| 09-arrays               | Arrays related solutions                        | [Link](https://github.com/Lotfullah21/09-arrays)               |
-| 10-bits                 | Bit manipulation related solutions              | [Link](https://github.com/Lotfullah21/10-bits)                 |
-| 11-dictionary           | Dictionary related solutions                    | [Link](https://github.com/Lotfullah21/11-dictionary)           |
-| 12-hashmap              | Hashmap related solutions                       | [Link](https://github.com/Lotfullah21/12-hashmap)              |
-| 14-searching            | Searching algorithms solutions                  | [Link](https://github.com/Lotfullah21/14-searching)            |
-| 15-sorting              | Sorting algorithms solutions                    | [Link](https://github.com/Lotfullah21/15-sorting)              |
-| 16-recursion            | Recursion related solutions                     | [Link](https://github.com/Lotfullah21/16-recursion)            |
-| 16-stack/minStack       | Stack related solutions                         | [Link](https://github.com/Lotfullah21/16-stack/minStack)       |
-| 17-string               | String manipulation solutions                   | [Link](https://github.com/Lotfullah21/17-string)               |
-| 18-linked-list          | Linked List data structure solutions            | [Link](https://github.com/Lotfullah21/18-linked-list)          |
-| 18-trees                | Tree data structure solutions                   | [Link](https://github.com/Lotfullah21/18-trees)                |
-| 19-binary-search-tree   | Binary Search Tree data structure solutions     | [Link](https://github.com/Lotfullah21/19-binary-search-tree)   |
-| 19-stack                | Stack data structure solutions                  | [Link](https://github.com/Lotfullah21/19-stack)                |
-| 21-queue                | Queue data structure solutions                  | [Link](https://github.com/Lotfullah21/21-queue)                |
-| 22-graphs               | Graph data structure solutions                  | [Link](https://github.com/Lotfullah21/22-graphs)               |
-| 24-heap                 | Heap data structure solutions                   | [Link](https://github.com/Lotfullah21/24-heap)                 |
-| 26-dynamic-programming  | Dynamic Programming solutions                   | [Link](https://github.com/Lotfullah21/26-dynamic-programming)  |
-| 27-graphs               | More Graph data structure solutions             | [Link](https://github.com/Lotfullah21/27-graphs)               |
-| 28-two-pointers         | Two Pointers technique solutions                | [Link](https://github.com/Lotfullah21/28-two-pointers)         |
-| 29-advanced-mathematics | Advanced Mathematics solutions                  | [Link](https://github.com/Lotfullah21/29-advanced-mathematics) |
-| assets                  | Various assets like images, etc.                | [Link](https://github.com/Lotfullah21/assets)                  |
-| leetcode                | Solutions related to LeetCode problems          | [Link](https://github.com/Lotfullah21/leetcode)                |
-| python-helper           | Helper files and utilities for Python solutions | [Link](https://github.com/Lotfullah21/python-helper)           |
-| README.md               | Main README file for the repository             | [Link](https://github.com/Lotfullah21/README.md)               |
+| Folder Name             | Description                                     | Link                                                            |
+| ----------------------- | ----------------------------------------------- | --------------------------------------------------------------- |
+| .vscode                 | VS Code settings and configurations             | `<a href="./.vscode/">.vscode</a>`                              |
+| 01-analysis             | analysis of algorithms                          | `<a href="./01-analysis-of-algorithms/">mathematics</a>`        |
+| 02-mathematics          | Mathematics related solutions                   | `<a href="./02-mathematics/">mathematics</a>`                   |
+| 03-list                 | List related solutions                          | `<a href="./03-list/">list</a>`                                 |
+| 04-tuples               | Tuples related solutions                        | `<a href="./04-tuples/">tuples</a>`                             |
+| 05-sets                 | Sets related solutions                          | `<a href="./05-sets/">sets</a>`                                 |
+| 06-functions            | Functions related solutions                     | `<a href="./06-functions/">functions</a>`                       |
+| 06-loops                | Loops related solutions                         | `<a href="./06-loops/">loops</a>`                               |
+| 08-patterns             | Patterns related solutions                      | `<a href="./08-patterns/">patterns</a>`                         |
+| 09-arrays               | Arrays related solutions                        | `<a href="./09-arrays/">arrays</a>`                             |
+| 10-bits                 | Bit manipulation related solutions              | `<a href="./10-bits/">bits</a>`                                 |
+| 11-dictionary           | Dictionary related solutions                    | `<a href="./11-dictionary/">dictionary</a>`                     |
+| 12-hashmap              | Hashmap related solutions                       | `<a href="./12-hashmap/">hashmap</a>`                           |
+| 14-searching            | Searching algorithms solutions                  | `<a href="./14-searching/">searching</a>`                       |
+| 15-sorting              | Sorting algorithms solutions                    | `<a href="./15-sorting/">sorting</a>`                           |
+| 16-recursion            | Recursion related solutions                     | `<a href="./16-recursion/">recursion</a>`                       |
+| 16-stack/minStack       | Stack related solutions                         | `<a href="./16-stack/minStack/">stack/minStack</a>`             |
+| 17-string               | String manipulation solutions                   | `<a href="./17-string/">string</a>`                             |
+| 18-linked-list          | Linked List data structure solutions            | `<a href="./18-linked-list/">linked-list</a>`                   |
+| 18-trees                | Tree data structure solutions                   | `<a href="./18-trees/">trees</a>`                               |
+| 19-binary-search-tree   | Binary Search Tree data structure solutions     | `<a href="./19-binary-search-tree/">binary-search-tree</a>`     |
+| 19-stack                | Stack data structure solutions                  | `<a href="./19-stack/">stack</a>`                               |
+| 21-queue                | Queue data structure solutions                  | `<a href="./21-queue/">queue</a>`                               |
+| 22-graphs               | Graph data structure solutions                  | `<a href="./22-graphs/">graphs</a>`                             |
+| 24-heap                 | Heap data structure solutions                   | `<a href="./24-heap/">heap</a>`                                 |
+| 26-dynamic-programming  | Dynamic Programming solutions                   | `<a href="./26-dynamic-programming/">dynamic-programming</a>`   |
+| 27-graphs               | More Graph data structure solutions             | `<a href="./27-graphs/">graphs</a>`                             |
+| 28-two-pointers         | Two Pointers technique solutions                | `<a href="./28-two-pointers/">two-pointers</a>`                 |
+| 29-advanced-mathematics | Advanced Mathematics solutions                  | `<a href="./29-advanced-mathematics/">advanced-mathematics</a>` |
+| assets                  | Various assets like images, etc.                | `<a href="./assets/">assets</a>`                                |
+| leetcode                | Solutions related to LeetCode problems          | `<a href="./leetcode/">leetcode</a>`                            |
+| python-helper           | Helper files and utilities for Python solutions | `<a href="./python-helper/">python-helper</a>`                  |
+|                         |
 
 ## List of Topics
 
