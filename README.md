@@ -17,7 +17,6 @@ Welcome to my repository for Data Structures and Algorithms solutions! Here, I s
 - [Data Structures and Algorithms Solutions](#data-structures-and-algorithms-solutions) - [Data Structure:](#data-structure) - [Algorithm:](#algorithm)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
-  - [Folder Structure](#folder-structure)
   - [List of Topics](#list-of-topics)
   - [Contributing](#contributing)
 
@@ -63,9 +62,6 @@ Within each folder, you'll find solutions to general DSA problems as well as sol
 | assets                  | Various assets like images, etc.                | <a href=./assets/> assets </a>                                |
 | leetcode                | Solutions related to LeetCode problems          | <a href=./leetcode/> leetcode </a>                            |
 | python-helper           | Helper files and utilities for Python solutions | <a href=./python-helper/> python-helper </a>                  |
-| README.md               | Main README file for the repository             | <a href=./README.md> README.md </a>                           |
-
-| |
 
 ## List of Topics
 

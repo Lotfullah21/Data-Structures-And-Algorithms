@@ -85,8 +85,8 @@ def bubbleSort(arr: list) -> list:
                 temp = arr[j]
                 arr[j] = arr[j+1]
                 arr[j+1] = temp
-        # If swapped did not change, mean the array is sorted and return from the function.
-        if swapped == True:
+        # If swapped did not change, means the array is sorted and return from the function.
+        if swapped == False:
             return
     return arr
 

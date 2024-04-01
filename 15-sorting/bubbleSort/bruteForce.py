@@ -1,6 +1,6 @@
 def bubbleSort(arr: list) -> list:
     n = len(arr)
-    for i in range(n-1):
+    for _ in range(n-1):
         for j in range(n-1):
             if arr[j]>arr[j+1]:
                 temp = arr[j]
