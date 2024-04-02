@@ -3,6 +3,7 @@ class Solution:
         n = len(arr)
         for j in range(n-2, -1, -1):
             if arr[j]>arr[j+1]:
+                print(arr[j-1],arr[j])
                 temp = arr[j]
                 arr[j] = arr[j+1]        
                 arr[j+1] = temp

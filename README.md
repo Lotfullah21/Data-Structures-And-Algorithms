@@ -1,10 +1,10 @@
 # Data Structures and Algorithms
 
-#### Data Structure:
+## Data Structure:
 
-The way to organize data in main memory
+The way to organize data in main memory.
 
-#### Algorithm:
+## Algorithm:
 
 The sequence of steps to solve a problem.
 
@@ -15,9 +15,8 @@ Welcome to my repository for Data Structures and Algorithms solutions! Here, I s
 ## Table of Contents
 
 - [Data Structures and Algorithms Solutions](#data-structures-and-algorithms-solutions) - [Data Structure:](#data-structure) - [Algorithm:](#algorithm)
-  - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
-  - [List of Topics](#list-of-topics)
+  - [Table of Contents](#table-of-contents)
   - [Contributing](#contributing)
 
 ## Introduction

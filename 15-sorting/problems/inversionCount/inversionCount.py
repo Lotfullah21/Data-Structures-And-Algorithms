@@ -21,11 +21,11 @@ class Solution:
         p1 = start
         p2 = mid+1
         p3 = 0
-        ans  = 0 
+        # ans  = 0 
         # Take care of (end-start+1), because start-end+1 is different.
         temp = [[] for _ in range(end-start+1)]
         while(p1<=mid and p2<=end):
-            if arr[p1]<arr[p2]:
+            if arr[p1]<=arr[p2]:
                 temp[p3] = arr[p1]
                 p1+=1
                 p3+=1
@@ -33,8 +33,8 @@ class Solution:
             else:
                 temp[p3] = arr[p2]
                 p2+=1
-                p3+=1
                 self.ans += (mid - p1 + 1)
+                p3+=1
         while (p1<=mid):
             temp[p3]=arr[p1]
             p1+=1
@@ -48,7 +48,7 @@ class Solution:
         for i in range(n):
             j = start + i
             arr[j] = temp[i]
-        return ans
+        # return ans
 
 arr = [3, 4, -5, 0, 1, 20, 11, 9, 4, 7, 13, -4,0]
 solution = Solution()
