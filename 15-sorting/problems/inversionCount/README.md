@@ -1,3 +1,19 @@
+#### Question:
+
+Given an array of integers, find number of inversion counts.
+
+##### Inversion count:
+
+Inversion Count: For an array, inversion count indicates how far (or close) the array is from being sorted. If the array is already sorted then the inversion count is 0.
+If an array is sorted in the reverse order then the inversion count is the maximum.(GFG)
+
+Inversion count is number of times an element at `ith` position is greater than other elements `(i+1th)` in the array.
+
+Input: [1, 2,0, -1, 3]
+Output: 4
+1>0, 1>-1; count=2
+2>0, 2>-1; count=2 => total = 4.
+
 ### Idea-1: Brute Force
 
 Time complexity `O(N^2)` ans space complexity `O(1)`
@@ -18,7 +34,7 @@ class Solution:
 ### Idea-1
 
 To do it in `O(NlogN)`, why not use merge sort.
-At every step, sort and count if there is a an inversion, which means arr[p]>arr[p2].
+At every step, sort and count if there is a an inversion, which means arr[p1]>arr[p2].
 if one element in a sorted array is greater than an element in a second array, then all elements on its right-side is also greater than the element in 2nd array.
 For instance,
 
@@ -57,8 +73,6 @@ At index 4, for element 4 in array2.
 
 So at index 4, we are having 4 inversion counts.
 
-
-
 At index 5, for element 8 in array2.
 10>8
 20>8
@@ -67,7 +81,7 @@ At index 5, for element 8 in array2.
 
 So at index 5, we are having 4 inversion counts.
 
-In total there 16 inversion count.
+In total there are 16 inversion counts.
 ```
 
 The idea is to use merge sort algorithm, but at the same time sorting is done, a comparison across the elements of array also had to be done if the element in array1>array2,
@@ -99,11 +113,11 @@ class Solution:
         p1 = start
         p2 = mid+1
         p3 = 0
-        ans  = 0
+        # ans  = 0
         # Take care of (end-start+1), because start-end+1 is different.
         temp = [[] for _ in range(end-start+1)]
         while(p1<=mid and p2<=end):
-            if arr[p1]<arr[p2]:
+            if arr[p1]<=arr[p2]:
                 temp[p3] = arr[p1]
                 p1+=1
                 p3+=1
@@ -111,8 +125,8 @@ class Solution:
             else:
                 temp[p3] = arr[p2]
                 p2+=1
-                p3+=1
                 self.ans += (mid - p1 + 1)
+                p3+=1
         while (p1<=mid):
             temp[p3]=arr[p1]
             p1+=1
@@ -126,7 +140,7 @@ class Solution:
         for i in range(n):
             j = start + i
             arr[j] = temp[i]
-        return ans
+        # return ans
 
 arr = [3, 4, -5, 0, 1, 20, 11, 9, 4, 7, 13, -4,0]
 solution = Solution()
@@ -134,3 +148,8 @@ new_array = solution.inversionCount(arr,len(arr)-1)
 print(new_array)
 
 ```
+
+### Analysis
+
+`Time complexity`: `O(NlogN)`, where at each level we are doing `N` sorting for whole array and after each level the tree is divided by so `logN`
+`Space Complexity`: `O(N)` because of the temp array we have created in merge function.

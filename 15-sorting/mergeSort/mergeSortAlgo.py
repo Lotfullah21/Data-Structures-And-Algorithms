@@ -5,7 +5,6 @@ class Solution:
         p3 = 0
         # Take care of (end-start+1), because start-end+1 is different.
         temp = [[] for _ in range(end-start+1)]
-
         while(p1<=mid and p2<=end):
             if arr[p1]<arr[p2]:
                 temp[p3] = arr[p1]
@@ -33,11 +32,10 @@ class Solution:
         # base case
         if start==end:
             return
-        else:
-            mid = (start + end) // 2
-            self.merge_sort(arr, start, mid)
-            self.merge_sort(arr, mid + 1, end)
-            self.merge(arr, start, mid, end)
+        mid = (start + end) // 2
+        self.merge_sort(arr, start, mid)
+        self.merge_sort(arr, mid + 1, end)
+        self.merge(arr, start, mid, end)
         return arr
 
 

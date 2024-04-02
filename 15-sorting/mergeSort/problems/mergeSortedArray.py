@@ -29,14 +29,9 @@ array_1 = [1, 2, 3, 4]
 array_2 = [5, 6, 7, 8]
 new_arr = mergeTwoSortedArray(array_1,array_2)
 print(new_arr)
-            
-            
-            
-
-
-start = 2
-
-mid = 6
-end = 9
-temp = [[] for _ in range(end-start+1)]
-print(temp)
+# print(new_arr)
+# start = 2
+# mid = 6
+# end = 9
+# temp = [[] for _ in range(end-start+1)]
+# print(temp)

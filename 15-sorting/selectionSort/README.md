@@ -73,4 +73,7 @@ arr[3]=temp=12
 
 ```
 
-Time complexity is `O(N^2)` and space complexity is `O(1)`
+### Analysis
+
+`Time complexity`: `O(N^2)`.
+`Space Complexity`: `O(1)`.

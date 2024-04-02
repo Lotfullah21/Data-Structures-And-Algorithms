@@ -31,6 +31,9 @@ sortedArray = solution.sortFirstNth(arr)
 print(sortedArray) ## [0, 1, 2, 3, 4, 5]
 
 
+
+arr[4]>arr[5] -> 5>0; yes; swap them
+
 ```
 
-ime complexity is `O(N)` and space complexity `O(1)`.
+Time complexity is `O(N)` and space complexity `O(1)`.
