@@ -65,5 +65,5 @@ print(new_array)
 
 ### Analysis
 
-`Time complexity`: `O(NlogN)`, where at each level we are doing `N` sorting for whole array and after each level the tree is divided by so `logN`
+`Time complexity`: `O(NlogN)`, where at each level we are doing `N` sorting for whole array and after each level the tree is divided by two `logN`.
 `Space Complexity`: `O(N)` because of the temp array we have created in merge function.

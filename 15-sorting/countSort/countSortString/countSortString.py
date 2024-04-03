@@ -7,6 +7,7 @@ class Solution:
         for i in range(len(arr)):
             if arr[i] > maxChar:
                 maxChar = arr[i]
+        # -ord(`a`) to reduce the length of the array, and don't forget once adding it back when converting the int value when converting back to string.
         max_val = ord(maxChar) - ord('a')
         # Find the occurrence of each.
         count = [0] * (max_val + 1)
@@ -24,6 +25,6 @@ class Solution:
         return ''.join(arr)
 
 if __name__ == "__main__":
-    s = "aa"
+    s = input("Enter a string: ")
     result = Solution.count_sort(s)
     print(result)

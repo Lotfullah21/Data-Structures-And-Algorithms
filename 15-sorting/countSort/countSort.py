@@ -19,8 +19,6 @@ class Solution:
             for _ in range(cnt):
                 arr[k] = i
                 k+=1
-                
-                
 
 arr = [0, 3, 1, 1, 0, 4, 6, 7, 3, 1]
 solution = Solution()
