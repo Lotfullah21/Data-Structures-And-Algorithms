@@ -16,7 +16,6 @@ class Solution:
                     break
         return array
     
-    
 array = [9, 0, -1, 2, 5]
 solution = Solution()
 result = solution.insertionSort(array,5)

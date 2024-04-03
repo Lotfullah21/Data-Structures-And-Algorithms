@@ -143,9 +143,10 @@ arr = [0, 0, 1, 1, 3, 5, 6, 7]
 
 ### Analysis:
 
-Time complexity for the given algorithm is `O(N+N+MAX)` and space complexity is also `O(MAX)`.
-Quick sort algorithm is heavily dependent on maximum element in the array.
-for instance if the array is `[9, 10^9]`, then there had to be a `count array` of size `O(10^9)` and the last loop also runs for `O(10^9)`.
+`Time Complexity:`: `O(N+N+MAX)`.
+`Space Complexity:`: `O(MAX)`.
+Count sort algorithm is heavily dependent on maximum element in the array.
+for instance if length of the array is `[9` and max element among `9` element is `10^9`, then there had to be a `count array` of size `O(10^9)` and the last loop also runs for `O(10^9)`.
 
 ### Application:
 
