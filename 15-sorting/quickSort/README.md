@@ -17,6 +17,18 @@ Now, that index is pivotal in moving to the left and right side of the original 
         self.quickSort(arr,p+1, high)
 ```
 
+## Tail Call Elimination:
+
+To reduces one extra recursion call, the right or left call can be eliminated with using a while loop.
+
+```py
+    def quickSort(self,arr,low,high):
+        while low<high:
+          p = self.reArrangeSubArray(arr, low, high)
+          self.quickSort(arr, low, p-1)
+          low = p + 1
+```
+
 The base case is when the left and right side cross each other or start index == end index.
 
 #### Analysis
@@ -29,3 +41,7 @@ The base case is when the left and right side cross each other or start index ==
 #### Note:
 
 On average, the time complexity is `O(NlogN)` and space complexity is `O(logN)`
+
+#### Application:
+
+when the memory cost is more, which means with every writing, the age of memory reduces, Then quick sort is best choices than all other standard algorithms.

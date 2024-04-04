@@ -1,0 +1,12 @@
+def minDifference(arr: list) -> int:
+    "Returns the min difference between two arrays."
+    n = len(arr)
+    ans = float("inf")
+    arr.sort()
+    for i in range(n-1):
+        ans = min(ans, abs(arr[i]-arr[i+1]))
+    return ans
+
+arr = [1,92,32 ,4321, 2132, 42, 433,45]
+result = minDifference(arr)
+print(result)
