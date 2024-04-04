@@ -7,6 +7,11 @@
   - For instance, python uses timSort which is combination of `merge sort` and `insertion sort`, when the size of the array is small, it uses `insertion sort.`
 - `O(n)` in best case when the array is sorted.
 
+#### Application:
+
+When number of elements to be sorted are small, for instance (20-30), it is best to use insertion sort.
+When the extra space is very less, insertion can be used.
+
 ## Insertion Sort Algorithm
 
 - Element at 0th index is sorted.

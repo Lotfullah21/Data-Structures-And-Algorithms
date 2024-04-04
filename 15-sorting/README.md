@@ -4,6 +4,14 @@ arranging data in increasing or decreasing order based on natural order or some 
 
 parameters can be length of a string, number of digits,number of factors,etc.
 
+### General Purpose Sorting algorithms:
+
+Merge sort, Quick sort and Heap sort are the general purpose algorithms that are mostly used.
+Merge sort and Heap sort are having `O(NlogN)` time complexity and Quick sort `O(N^2)` time complexity.
+Merge sort is a stable algorithm and works best for linked list.
+Heap sort and Quick sort needs random access thus, not a good choices for linked list data structure.
+Merge sort and Quick sort are divide and conquer based algorithm, having parallel machines can speed up them.
+
 in python there are two methods to sort the elements
 
 1. ##### sort()

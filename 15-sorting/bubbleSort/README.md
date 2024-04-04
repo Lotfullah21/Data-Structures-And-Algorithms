@@ -11,6 +11,10 @@ It has multiple passes:
 
 The idea is simple, compare the adjacent elements.
 
+#### Application:
+
+When we can only swap adjacent elements, it is best to use bubble sort.
+
 #### Brute Force
 
 ```py
