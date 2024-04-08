@@ -1,8 +1,12 @@
 ## Stack:
 
-it is a linear data structure that follows a particular order in which the operations are performed.
-by linear we refer to a way of organizing and storing data elements where data elements are arranged in sequential manner.
+It is a linear data structure that follows a particular order in which the operations are performed.
+By linear we refer to a way of organizing and storing data elements where data elements are arranged in sequential manner.
 This means that each element has a unique predecessor and successor, except for the first and last elements, respectively.
+
+It is like one end closed box where all the operations should be done on one end.
+
+The operations are done based on LAST IN FIRST OUT `LIFO`.
 
 to do operations in these types of data structures, a specific order will be followed.
 
@@ -29,3 +33,12 @@ to do operations in these types of data structures, a specific order will be fol
 
 3. ### list
    removing an element in list can be costly which is O(N), because we need to shift all elements to the right side of the list to the left side after removing one element.
+
+### Application Of Stack:
+
+- Used to handle function calls
+- Reversing Items
+- Balanced Parenthesis
+- Stock Span Problem
+- Undo/Redo or Forward/Backward
+- Infix to Postfix/Prefix (a+b to ab+/+ab)

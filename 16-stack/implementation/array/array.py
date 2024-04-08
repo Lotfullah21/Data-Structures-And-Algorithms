@@ -4,7 +4,7 @@ def push(data):
     global stackMax
     top = top + 1
     if top > 10000:
-        print("Stack Full")
+        print("Stack Is Full")
     else:
         stack.append(data)  
 def pop():
@@ -12,7 +12,7 @@ def pop():
     global top
     global stackMax
     if top <= -1:
-        print("Stack Empty")
+        print("Stack Is Empty")
     else:
         stack.pop()  
         top = top - 1
