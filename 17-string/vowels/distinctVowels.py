@@ -1,4 +1,3 @@
-#User function Template for python3
 
 class Solution:
     def countVowels(self,s):
@@ -9,5 +8,11 @@ class Solution:
             if letter in vowels and letter not in new_list:
                 new_list.append(letter)
                 count +=1
-        return count
-        #code here
+        return count,new_list
+
+
+if __name__ =="__main__":
+    solution = Solution()
+    s = input("Enter a string: ")
+    result = solution.countVowels("aHMAD")
+    print(result)
