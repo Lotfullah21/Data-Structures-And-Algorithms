@@ -1,9 +1,14 @@
 ## Strings
 
-a string is a sequence of characters.
+A string is a sequence of characters.
 Strings can contain letters, numbers, and symbols, and they are often used for tasks such as input/output, text processing, and data manipulation.
 
-strings are immutable which means that once created, directly it cannot be changed.
+Strings are immutable which means that once created, directly it cannot be changed.
+
+```py
+string = "Hi"
+string[0]="A" // Error, cannot change string value once assigned.
+```
 
 ## Character
 

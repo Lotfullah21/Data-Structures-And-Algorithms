@@ -1,7 +1,4 @@
-# there are two main functions in to with characters.
 
-## 1.  ord("char"): returns ASCII value of the character.
-## 2.  chr(num): returns the integer of a character.
 
 char1 = "A"
 print(f"Integer value of {char1} is = ", ord(char1))
