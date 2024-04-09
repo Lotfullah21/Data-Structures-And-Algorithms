@@ -45,7 +45,7 @@ Within each folder, you'll find solutions to general DSA problems as well as sol
 | 14-searching            | Searching algorithms solutions                  | <a href=./14-searching/> searching </a>                       |
 | 15-sorting              | Sorting algorithms solutions                    | <a href=./15-sorting/> sorting </a>                           |
 | 16-recursion            | Recursion related solutions                     | <a href=./16-recursion/> recursion </a>                       |
-| 16-stack/minStack       | Stack related solutions                         | <a href=./16-stack/minStack/> stack/minStack </a>             |
+             |
 | 17-string               | String manipulation solutions                   | <a href=./17-string/> string </a>                             |
 | 18-linked-list          | Linked List data structure solutions            | <a href=./18-linked-list/> linked-list </a>                   |
 | 18-trees                | Tree data structure solutions                   | <a href=./18-trees/> trees </a>                               |
