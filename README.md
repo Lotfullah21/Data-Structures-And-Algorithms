@@ -58,7 +58,6 @@ Within each folder, you'll find solutions to general DSA problems as well as sol
 | 28-two-pointers         | Two Pointers technique solutions                | <a href=./28-two-pointers/> two-pointers </a>                 |
 | 29-advanced-mathematics | Advanced Mathematics solutions                  | <a href=./29-advanced-mathematics/> advanced-mathematics </a> |
 | assets                  | Various assets like images, etc.                | <a href=./assets/> assets </a>                                |
-| leetcode                | Solutions related to LeetCode problems          | <a href=./leetcode/> leetcode </a>                            |
 | python-helper           | Helper files and utilities for Python solutions | <a href=./python-helper/> python-helper </a>                  |
 
 ## List of Topics
