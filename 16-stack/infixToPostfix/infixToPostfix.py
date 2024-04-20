@@ -37,14 +37,17 @@ class Solution:
             operands.append(calculated)
         return operands.pop()
         
-    def precedence(self, operator):
-        if operator == '^':
+    def precedence(self, c):
+        if c == "^":
+            return 4
+        elif c in {"*", "/"}:
             return 3
-        elif operator == '*' or operator == '/':
-            return 3
-        elif operator=="+" or operator=="-":
+        elif c in {"+", "-"}:
+            return 2
+        elif c in {"(", ")"}:
             return 1
-        return 0
+        else:
+            return 0
 # Example usage
 solution = Solution()
 infix_expression = "A+B*C-(D/E^F)"
