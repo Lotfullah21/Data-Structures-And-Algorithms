@@ -22,8 +22,7 @@ class Deque:
             print(-1)
         else:
             print(self.items[0])
-
-
+            
 # Sample Driver Code
 if __name__ == "__main__":
     q = int(input().strip())
