@@ -8,7 +8,7 @@ The way to organize data in main memory.
 
 The sequence of steps to solve a problem.
 
-<img src="./assets/image.jpeg">
+<img src="./assets/a.svg">
 
 Welcome to my repository for Data Structures and Algorithms solutions! Here, I share my solutions and implementations for various DSA problems, organized by topics.
 
