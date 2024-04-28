@@ -70,3 +70,8 @@ Since decimalToBinary() is called N times in total, the overall space complexity
 `Space Complexity`: O(N)
 
 <h4><a href="https://www.geeksforgeeks.org/problems/generate-binary-numbers-1587115620/1?itm_source=geeksforgeeks">GFG</a></h4>
+
+#### Important:
+
+If authentication fails and you already setup ssh keys.
+git remote set-url origin git@github.com:[username]/Data-Structures-And-Algorithms.git
