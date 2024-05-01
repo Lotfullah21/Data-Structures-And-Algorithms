@@ -17,7 +17,6 @@ Welcome to my repository for Data Structures and Algorithms solutions! Here, I s
 
 - [Data Structures and Algorithms Solutions](#data-structures-and-algorithms-solutions) - [Data Structure:](#data-structure) - [Algorithm:](#algorithm)
   - [Introduction](#introduction)
-  - [Table of Contents](#table-of-contents)
   - [Contributing](#contributing)
 
 ## Introduction
@@ -61,34 +60,6 @@ Within each folder, you'll find solutions to general DSA problems as well as sol
 | assets                  | Various assets like images, etc.                | <a href=./assets/> assets </a>                                |
 | python-helper           | Helper files and utilities for Python solutions | <a href=./python-helper/> python-helper </a>                  |
 
-## List of Topics
-
-Here's a more detailed list of the DSA topics covered in this repository:
-
-- Tuples
-- Lists
-- Loops and Conditional Statements
-- Patterns
-- Functions
-- Arrays
-- Bit Manipulation
-- Strings
-- Dictionaries (Hash Maps)
-- Sets
-- Mathematics Algorithms
-- Recursion
-- Sorting Algorithms
-- Binary Search
-- Linked Lists
-- Stacks
-- Queues
-- Trees
-- Binary Search Trees
-- Heaps
-- Dynamic Programming
-- Graphs
-- Algorithms
-- LeetCode Problems
 
 ## Contributing
 
