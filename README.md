@@ -45,11 +45,11 @@ Within each folder, you'll find solutions to general DSA problems as well as sol
 | 14-searching            | Searching algorithms solutions                  | <a href=./14-searching/> searching </a>                       |
 | 15-sorting              | Sorting algorithms solutions                    | <a href=./15-sorting/> sorting </a>                           |
 | 16-recursion            | Recursion related solutions                     | <a href=./16-recursion/> recursion </a>                       |
+| 17-stack                | Stack data structure solutions                  | <a href=./16-stack/> stack </a>                               |
 | 17-string               | String manipulation solutions                   | <a href=./17-string/> string </a>                             |
 | 18-linked-list          | Linked List data structure solutions            | <a href=./18-linkedlist/> linked-list </a>                   |
 | 18-trees                | Tree data structure solutions                   | <a href=./18-trees/> trees </a>                               |
 | 19-binary-search-tree   | Binary Search Tree data structure solutions     | <a href=./19-binary-search-tree/> binary-search-tree </a>     |
-| 19-stack                | Stack data structure solutions                  | <a href=./16-stack/> stack </a>                               |
 | 21-queue                | Queue data structure solutions                  | <a href=./21-queue/> queue </a>                               |
 | 22-graphs               | Graph data structure solutions                  | <a href=./22-graphs/> graphs </a>                             |
 | 24-heap                 | Heap data structure solutions                   | <a href=./24-heap/> heap </a>                                 |
