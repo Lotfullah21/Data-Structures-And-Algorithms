@@ -10,6 +10,7 @@ Insertion and deletion are done at constant time, because we are having the addr
 
 Looking for an element is costly since the items are not at contagious locations. Whole elements up to target element should be traversed.
 No cache friendly since the elements are not at contagious locations.
+No random access as they are not in contagious locations.
 
 In Python, when you pass an object like head to a function, you're passing a reference to that object. In the case of a linked list, this means that the function operates on the same linked list object as the one passed into it. Any changes made to the object within the function will affect the original object outside the function.
 
@@ -39,3 +40,9 @@ head.next = temp1
 temp1.next = temp2
 
 ```
+
+### Applications:
+
+- Worst case deletion and insertion is `O(1)` from the beginning and the end.
+- Insertion and deletion in the middle is `O(1)` if we have reference to the previous node.
+- Merging two sorted linked list is easier than two arrays, for arrays we need one more array to save the merged arrays.
