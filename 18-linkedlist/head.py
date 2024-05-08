@@ -2,22 +2,26 @@ class Node:
     def __init__(self, key):
         self.key = key
         self.next = None
-    
-    def printList(head):
-        curr = head
-        while(curr!=None):
-            print(head.key,end=" ")
-            curr = curr.next
-        
+             
+def printList(head: Node) -> None:
+    """Prints a linked list
 
+    Args:
+        head (Node): head of a node
 
-def printList(head: Node) -> list:
+    Returns:
+        list: None
+    """
     curr = head
     while(curr!=None):
         print(curr.key,end=" ")
         curr = curr.next
+    print()
+
+        
 # using list
 def displayList(head: Node) -> list:
+    "Returns values of a linked list"
     result = []
     temp = head
     while(temp!=None):
@@ -27,13 +31,15 @@ def displayList(head: Node) -> list:
 
 
         
-temp1 = Node(10)
+head = Node(10)
 temp2 = Node(20)
 temp3 = Node(30)
-temp1.next = temp2
+head.next = temp2
 temp2.next = temp3
-printList(temp1)
-new_list = displayList(temp1)
-print("Using list")
+printList(head)
+new_list = displayList(head)
+
+print("Using list",end=" ")
 for ele in new_list:
     print(ele, end=" ")
+print()
