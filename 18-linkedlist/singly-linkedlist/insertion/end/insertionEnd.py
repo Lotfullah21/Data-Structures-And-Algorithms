@@ -26,6 +26,7 @@ def insertionAtEnd(node: Node, val: int,head: Node) -> Node:
             temp = temp.next
         # change the structure of the linked list and add value to its key.
         temp.next = node(val)
+        # IF we return temp, only the last element and newly added element will be shown.
         return head
     
 n1 = Node(0)
