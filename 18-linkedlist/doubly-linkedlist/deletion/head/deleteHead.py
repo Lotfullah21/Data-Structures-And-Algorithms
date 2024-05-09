@@ -1,11 +1,26 @@
 class Node:
     def __init__(self, data):
         self.data = data
+        self.next = None 
         self.prev = None
-        self.next = None
+
+
+def deleteHead(head: Node) -> Node:
+    "Deletes the head of the node and returns a new head."
+    # If no element is present at all.
+    if head is None:
+        return None
+    # If there is only one node
+    if head.next is None:
+        return None
+    curr = head
+    # Break the chain of head to its next element and make it new head.
+    head = curr.next
+    head.prev = curr.prev
+    return head
+
 
 def insertInTail(head,data):
-    #code here
     newNode = Node(data)
     if head is None:
         head = newNode
@@ -19,6 +34,7 @@ def insertInTail(head,data):
     return head
 
 
+
 def displayList(head: Node) -> list:
     """Returns a list containing the data field of each node in the linked list starting from the given head."""
     curr = head
@@ -27,8 +43,6 @@ def displayList(head: Node) -> list:
         result.append(curr.data)
         curr = curr.next
     return result
-
-
 
 # Example usage
 head = Node(2)
@@ -39,4 +53,8 @@ insertInTail(head, 10)
 insertInTail(head, 10)
 insertInTail(head, 10)
 ans = displayList(head)
-print(ans)
+print("linked list before deletion of head node=",ans)
+newList = deleteHead(head)
+ans = displayList(newList)
+print("linked list after deletion of head node=",ans)
+
