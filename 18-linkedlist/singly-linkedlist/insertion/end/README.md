@@ -30,3 +30,8 @@ def insertionAtEnd(node: Node, val: int,head: Node) -> Node:
         return head
 
 ```
+
+### Analysis:
+
+`Time Complexity`: `O(n)` We need to traverse the whole linked list to reach to the end point.
+`Space Complexity`: `O(1)`, Not using extra space, the result list is part of the output and does not count as extra space.
