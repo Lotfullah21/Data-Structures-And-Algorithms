@@ -10,8 +10,9 @@ def DeleteTail(head):
     # Only one node in the list
     if head.next is head:  
         return None
-    # Copy the data next to head to current head, and connect the current head with next to the next of head.
+    # Copy the data next to head to current head, 
     head.data = head.next.data
+    # Make the next of head ot be next of next.
     head.next = head.next.next
     return head
 

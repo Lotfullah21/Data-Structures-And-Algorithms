@@ -3,16 +3,19 @@ class Node:
         self.data = key
         self.next = None
         
-def printList(head: Node) -> int:
-    "Prints present nodes in a linked list."
+def displayList(head: Node) -> int:
+    "Returns a list containing all linked list's data."
     if head == None:
         return 
-    print(head.data,end=" ")
+    result = []
+    current = head
+    result.append(current.data)
     current = head.next
     while current!=head:
-        print(current.data,end=" ")
+        result.append(current.data)
         current = current.next
-    print()
+    return result
+
             
 def getLength(head: Node) -> int:
     "Returns number of elements in a linked list"
@@ -30,6 +33,6 @@ head = Node(10)
 head.next = Node(20)
 head.next.next = Node(30)
 head.next.next.next = head
-printList(head)
+displayList(head)
 length = getLength(head)
 print(length)
