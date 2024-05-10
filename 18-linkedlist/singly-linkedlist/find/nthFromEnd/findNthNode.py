@@ -6,24 +6,27 @@ class Node:
         
 def displayList(head):
     curr = head
+    result = []
     while curr!=None:
-        print(curr.data, end=" ")
+        result.append(curr.data)
         curr = curr.next
+    return result
     
     
 def findNthNode(head:Node, n: int) -> Node:
     "find the Nth node from last point of a linked list."
+    NodeCount = 0
     curr = head
-    len = 0
     while curr!=None:
-        len = len + 1
+        NodeCount = NodeCount + 1
         curr = curr.next
-    if n>len:
-        return -1
+    print("number of nodes =",NodeCount)
     curr = head
-    for _ in range(1, len-n+1):
+    if n>NodeCount:
+        return
+    for _ in range(1, NodeCount-n+1):
         curr = curr.next
-    print(curr.data)
+    return curr.data
         
     
 # Using two pointers 
@@ -43,18 +46,24 @@ def findNthNodeTwoPointers(head: Node, n: int) -> Node:
     while (first!=None):
         first = first.next
         second = second.next
-    print(second.data)
+    return second.data
+    
+    
 head = Node(10)
 temp1 = Node(20)
 temp2 = Node(30)
 temp3 = Node(40)
-temp4 = Node(50)
+
 head.next = temp1
 temp1.next = temp2
 temp2.next = temp3
-temp3.next = temp4
-print("Original linked list: ",end=" ")
-displayList(head)
-print("\nNth node:")
-findNthNode(head,52)
-findNthNodeTwoPointers(head,1)
+
+print("Original linked list")
+linkedList = displayList(head)
+for ele in linkedList:
+    print(ele, end=">")
+print()
+
+n = 2
+nthNode =findNthNode(head,n)
+print(f"{n}nd node from left side is {nthNode}")
