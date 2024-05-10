@@ -17,36 +17,21 @@ def deleteHead(head):
     current.next = head.next
     return current.next
         
-def deleteKthNode(head, k):
-    "Deletes Kth node in a linked list"
-    if head is None:
-        return None
-    elif k==1:
-        return deleteHead(head)
-    current = head
-    for i in range(k-2):
-        current = current.next
-    current.next = current.next.next
-    return head
-        
-    
-    
-def printList(head: Node) -> None:
+def displayList(head: Node) -> None:
     "Prints present nodes in a linked list."
-    if head is None:
-        return 
-    print(head.data, end=" ")
+    result = []
+    current = head
+    result.append(current.data)
     current = head.next
     while current != head:
-        print(current.data, end=" ")
+        result.append(current.data)
         current = current.next
-        if current == head:
-            break
-    print()
+    return result
 
 head = Node(10)
 head.next = Node(20)
 head.next.next = Node(30)
 head.next.next.next = head
-newHead = deleteKthNode(head, 2)
-printList(head)
+newHead = deleteHead(head)
+ans  = displayList(newHead)
+print("Linked list after head deletion", ans)
