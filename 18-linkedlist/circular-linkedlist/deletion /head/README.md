@@ -9,7 +9,13 @@ Explanation: 2 is the head node and it got deleted.
 
 ### Idea-1:
 
-Traverse the linked list and make the head of last node to be head.next
+Since, the tail of the linked list is connected ot head, we cannot simply remove the head.
+
+#### Algorithm:
+
+- Traverse the linked list until you reached end of the linked list.
+- Make tail.next to be next of head
+- Return next of head as our new head.
 
 ```py
 def deleteHead(head):
