@@ -52,6 +52,7 @@ def reverseLinkedList(head: Node) -> list:
 ## Analysis:
 
 `Time Complexity`: `O(2*N)=O(N)`, because we are traversing the linked list twice, ignoring the constant it becomes O(N).
+
 `Space Complexity`: `O(N)`, due to auxiliary stack space we are using to store the keys.
 
 ## Idea-2:
@@ -94,6 +95,7 @@ def reverseLinkedList(head: Node) -> list:
 ## Analysis:
 
 `Time Complexity`: `O(N)`, because we are traversing the linked list till the end.
+
 `Space Complexity`: `O(1)`, No auxiliary space used.
 
 It can be observed that the first method is using extra space and the second does not use any extra space.
