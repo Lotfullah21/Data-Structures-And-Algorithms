@@ -1,21 +1,6 @@
-"""
-Given a linked list of size N and a key. The task is to insert the key in the middle of the linked list.
-
-Example 1:
-
-Input:
-LinkedList = 1->2->4
-key = 3
-Output: 1 2 3 4
-Explanation: The new element is inserted
-after the current middle element in the
-linked list.
-
-"""
-
 class Node:
     def __init__(self, val):
-        self.key = val
+        self.data = val
         self.next = None
         
 def insertInMid(head,node):
@@ -36,15 +21,14 @@ def insertInMid(head,node):
     newNode.next = next
     return head
 
-
-
-def printList(head: Node) -> Node:
-    "print a linked list elements"
+def displayList(head: Node) -> Node:
+    "Returns a linked list' sta"
     temp = head
+    result  = []
     while(temp!=None):
-        print(temp.key, end =" ")
+        result.append(temp.data)
         temp = temp.next
-    print()
+    return result
     
 head = Node(10)
 temp1 = Node(20)
@@ -56,9 +40,14 @@ temp1.next = temp2
 temp2.next = temp3
 
 print("Original linked list")
-printList(head)
-
-
-newList = insertInMid(head,90)
-print("Reversed linked list")
-printList(newList)
+linkedList = displayList(head)
+for ele in linkedList:
+    print(ele, end=">")
+print()
+element = 90
+newList = insertInMid(head,element)
+print("New linked list after inserting",element,"in mid")
+linkedList = displayList(head)
+for ele in linkedList:
+    print(ele, end=">")
+print()
