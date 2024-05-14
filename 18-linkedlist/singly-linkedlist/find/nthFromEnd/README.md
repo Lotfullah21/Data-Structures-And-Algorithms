@@ -48,4 +48,9 @@ Use two pointers, first and second respectively.
 - return second node's data and that is our answer.
   Here, we do not need to count the number of nodes.
 
+```py
+
+
+```
+
 Analysis remains same as the first method.
