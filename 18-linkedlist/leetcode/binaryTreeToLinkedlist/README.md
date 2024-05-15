@@ -3,6 +3,8 @@
 Convert a binary tree linked to a linked list, after conversion, the left of the tree should be null.
 Use pre-order traversal.
 
+<h3><a href="https://leetcode.com/problems/flatten-binary-tree-to-linked-list/">leetcode</a></h3>
+
 For example:
 Input:
 
