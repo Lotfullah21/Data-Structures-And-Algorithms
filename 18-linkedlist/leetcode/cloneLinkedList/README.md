@@ -2,7 +2,7 @@
 
 <h3><a href="https://leetcode.com/problems/copy-list-with-random-pointer/description/">leetcode-138</a></h3>
 
-Input:
+Input: Linked list with their random pointers.
 
 ```rust
 
