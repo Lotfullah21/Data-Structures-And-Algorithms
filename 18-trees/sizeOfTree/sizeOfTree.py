@@ -1,9 +1,3 @@
-"""
-size of a tree have been defined as the number of nodes in a tree.
-use a recursive method to find it.
-
-"""
-
 # Node Class:
 class Node:
     def __init__(self,val):
@@ -12,16 +6,14 @@ class Node:
         self.right = None
 
 
-def size(root: Node) -> int:
-    "returns number of nodes by traversing and calling each node."
-    # base case
-    if root is None:
+def sizeOfTree(root: Node):
+    if root==None:
         return 0
-    # recursive calls.
-    leftSize = size(root.left)
-    rightSize = size(root.right)
-    return leftSize + rightSize + 1
-
+    else:
+        leftSideSize = sizeOfTree(root.left)
+        rightSideSize = sizeOfTree(root.right)
+        return leftSideSize+rightSideSize+1
+     
 
 # Create the tree
 root = Node(1)
@@ -32,4 +24,4 @@ root.left.right = Node(5)
 root.left.left.left = Node(90)
 root.left.right.right = Node(180)
 
-print("size of tree =",size(root))
+print("size of tree =",sizeOfTree(root))
