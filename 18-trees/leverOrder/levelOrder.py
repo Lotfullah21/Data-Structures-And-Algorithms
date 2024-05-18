@@ -1,36 +1,3 @@
-
-
-"""
-Level Order Traversal: in this method, the elements are printed level vise.
-first print all elements in first level, then 2nd level and so on.
-what do I mean by this could be explained in the following example
-
-Input:
-    1     ----- level 1 
-  /   \ 
- 3     2  ----- level 2
-Output:1 3 2
-
-Example 2:
-Input:
-
-        10      ---- level 1
-     /     \
-    70      60  ---- level 2
-  /   \
- 80   90        ---- level 3
-Output:10 70 60 80 90
-
-
-Solution: 
-
-step one: initialize a queue data structure with the root Node
-at each iteration
-step one: remove an element, removal should be based on queue data structure: first in, first out.
-step two: add or print that node's data
-step three: add the child of removed element if exist back to the queue.
-
-"""
 from collections import deque
 
 # Node Class:
