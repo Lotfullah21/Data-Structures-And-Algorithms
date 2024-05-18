@@ -4,15 +4,16 @@ class Node:
         self.data = val
         self.left = None
         self.right = None
-
-
-def sizeOfTree(root: Node):
+        
+        
+minValue = float("-inf")
+def maxNode(root: Node):
     if root==None:
-        return 0
+        return minValue
     else:
-        leftSideSize = sizeOfTree(root.left)
-        rightSideSize = sizeOfTree(root.right)
-        return leftSideSize+rightSideSize+1
+        leftSideValue = maxNode(root.left)
+        rightSideValue = maxNode(root.right)
+        return max(root.data, leftSideValue, rightSideValue) 
      
 
 # Create the tree
@@ -24,4 +25,4 @@ root.left.right = Node(5)
 root.left.left.left = Node(90)
 root.left.right.right = Node(180)
 
-print("size of tree =",sizeOfTree(root))
+print("maximum node =",maxNode(root))
