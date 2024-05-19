@@ -10,7 +10,6 @@ The sequence of steps to solve a problem.
 
 <img src="./assets/dsa.svg">
 <img src="./assets/road.svg">
-<img src="./assets/roadMap.svg">
 <!-- <img src="./assets/large.svg">
  -->
 Welcome to my repository for Data Structures and Algorithms solutions! Here, I share my solutions and implementations for various DSA problems, organized by topics.
