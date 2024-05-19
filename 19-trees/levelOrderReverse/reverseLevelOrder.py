@@ -12,10 +12,9 @@ class Tree:
         result = []
         if not node:
             return result
-        
+         # Using deque for efficient pop from the end
         queue = deque([node])
-        stack = deque()  # Using deque for efficient pop from the end
-        
+        stack = deque() 
         while queue:
             current = queue.popleft()
             stack.append(current)
