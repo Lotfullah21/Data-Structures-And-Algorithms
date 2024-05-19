@@ -8,8 +8,8 @@ The way to organize data in main memory.
 
 The sequence of steps to solve a problem.
 
-<img src="./assets/dsa.svg">
-<img src="./assets/roadMap.svg">
+<!-- <img src="./assets/dsa.svg"> -->
+<!-- <img src="./assets/roadMap.svg"> -->
 <img src="./assets/roadMap.png">
 <!-- <img src="./assets/large.svg">
  -->
