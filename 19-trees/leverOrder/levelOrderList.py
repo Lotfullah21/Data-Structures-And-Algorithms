@@ -8,23 +8,26 @@ class Node:
 
 class Solution:
     def levelOrder(self, root):
-        res = []
+        answer = []
         if not root:
-            return res
+            return []
         q = deque()
         q.append(root)
+        # Adding a for loop helps us to track the level and print the levels one by one.
         while q:
             ans = []
             sizeOfQueue = len(q)
             for _ in range(sizeOfQueue):
                 node = q.popleft()
+                print(node.val, end=",")
                 ans.append(node.val)
                 if node.left:
                     q.append(node.left)
                 if node.right:
                     q.append(node.right)
-            res.append(ans)
-        return res
+            print()
+            answer.append(ans)
+        return answer
        
 
 # Create the tree
