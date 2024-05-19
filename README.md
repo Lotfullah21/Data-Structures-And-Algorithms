@@ -9,6 +9,8 @@ The way to organize data in main memory.
 The sequence of steps to solve a problem.
 
 <img src="./assets/dsa.svg">
+<img src="./assets/road.svg">
+<img src="./assets/roadMap.svg">
 <!-- <img src="./assets/large.svg">
  -->
 Welcome to my repository for Data Structures and Algorithms solutions! Here, I share my solutions and implementations for various DSA problems, organized by topics.
@@ -42,24 +44,24 @@ Within each folder, you'll find solutions to general DSA problems as well as sol
 | 10-bits                 | Bit manipulation related solutions              | <a href=./10-bits/> bits </a>                                 |
 | 11-dictionary           | Dictionary related solutions                    | <a href=./11-dictionary/> dictionary </a>                     |
 | 12-hashmap              | Hashmap related solutions                       | <a href=./12-hashmap/> hashmap </a>                           |
-| 14-searching            | Searching algorithms solutions                  | <a href=./14-searching/> searching </a>                       |
-| 15-sorting              | Sorting algorithms solutions                    | <a href=./15-sorting/> sorting </a>                           |
-| 16-recursion            | Recursion related solutions                     | <a href=./16-recursion/> recursion </a>                       |
-| 17-stack                | Stack data structure solutions                  | <a href=./16-stack/> stack </a>                               |
+| 13-searching            | Searching algorithms solutions                  | <a href=./13-searching/> searching </a>                       |
+| 14-sorting              | Sorting algorithms solutions                    | <a href=./14-sorting/> sorting </a>                           |
+| 15-recursion            | Recursion related solutions                     | <a href=./15-recursion/> recursion </a>                       |
+| 16-stack                | Stack data structure solutions                  | <a href=./16-stack/> stack </a>                               |
 | 17-string               | String manipulation solutions                   | <a href=./17-string/> string </a>                             |
-| 18-linked-list          | Linked List data structure solutions            | <a href=./18-linkedlist/> linked-list </a>                   |
-| 18-trees                | Tree data structure solutions                   | <a href=./18-trees/> trees </a>                               |
-| 19-binary-search-tree   | Binary Search Tree data structure solutions     | <a href=./19-binary-search-tree/> binary-search-tree </a>     |
-| 21-queue                | Queue data structure solutions                  | <a href=./21-queue/> queue </a>                               |
-| 22-graphs               | Graph data structure solutions                  | <a href=./22-graphs/> graphs </a>                             |
+| 18-linked-list          | Linked List data structure solutions            | <a href=./18-linkedlist/> linked-list </a>                    |
+| 19-trees                | Tree data structure solutions                   | <a href=./19-trees/> trees </a>                               |
+| 20-binary-search-tree   | Binary Search Tree data structure solutions     | <a href=./20-binary-search-tree/> binary-search-tree </a>     |
+| 21-deque                | Deque data structure solutions                  | <a href=./21-deque/> deque </a>                               |
+| 22-queue                | Queue data structure solutions                  | <a href=./22-queue/> queue </a>                               |
+| 23-two-pointers         | Two Pointers technique solutions                | <a href=./23-two-pointers/> two pointers </a>                 |
 | 24-heap                 | Heap data structure solutions                   | <a href=./24-heap/> heap </a>                                 |
+| 25-matrix               | Solution to matrix problems                     | <a href=./25-matrix/> matrix </a>                             |
 | 26-dynamic-programming  | Dynamic Programming solutions                   | <a href=./26-dynamic-programming/> dynamic-programming </a>   |
 | 27-graphs               | More Graph data structure solutions             | <a href=./27-graphs/> graphs </a>                             |
-| 28-two-pointers         | Two Pointers technique solutions                | <a href=./28-two-pointers/> two-pointers </a>                 |
-| 29-advanced-mathematics | Advanced Mathematics solutions                  | <a href=./29-advanced-mathematics/> advanced-mathematics </a> |
+| 28-advanced-mathematics | Advanced Mathematics solutions                  | <a href=./28-advanced-mathematics/> advanced-mathematics </a> |
 | assets                  | Various assets like images, etc.                | <a href=./assets/> assets </a>                                |
 | python-helper           | Helper files and utilities for Python solutions | <a href=./python-helper/> python-helper </a>                  |
-
 
 ## Contributing
 
