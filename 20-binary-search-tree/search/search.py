@@ -1,29 +1,3 @@
-"""
-Complete the function search()which returns true if the node with value x is present in the BST else returns false.
-
-Input:      20
-             \ 
-              41 
-             / \ 
-            40   44
-X = 42
-Output: False
-Explanation: As 44 is not present in 
-the given nodes , so the output will
-be False.
-Input:      20
-             \ 
-              41 
-             / \ 
-            40   44
-X = 20
-Output: True
-Explanation: As 20 is not present in 
-the given nodes , so the output will
-be True.
-
-
-"""
 
 
 # Definition for a binary tree node.
