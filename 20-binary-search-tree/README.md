@@ -2,11 +2,11 @@
 
 A binary tree is a Binary Search Tree if it has the following properties:
 
-- The left subtree of the root node contains only nodes strictly smaller than the root's data.
-- The right subtree of the root node contains only nodes strictly greater than the root's key.
+- The left subtree of the root node contains only nodes strictly smaller than the root node's data.
+- The right subtree of the root node contains only nodes strictly greater than the root node's data.
 - The right and left subtree, each must be a binary search tree.
 
-In anther words, a binary tree is a binary search tree if for all the nodes, the nodes on the left side are smaller than the root node and nodes on the right side are larger than the root node. This property in addition to the the root node, should be valid for each individual sub tree.
+In an0ther words, a binary tree is a binary search tree if for all the nodes, the nodes on the left side are smaller than the root node and nodes on the right side are larger than the root node. This property in addition to the the root node, should be valid for each individual sub tree.
 
 It is a linked data structure and when we need more memory, there is no need of resizing, just link the new element to the tree.
 
@@ -62,6 +62,8 @@ UnBalanced Tree:
 The main advantage of balanced BST is that all the operations like searching, insertion, deletion and finding closest value can be done in `O(logN)` time, because of its optimal structure.
 
 But, for unbalanced, these operations becomes costly which is proportional to the heigh of a tree `O(h)`, which in worst case we might be having `N` nodes, so it becomes `O(N)` .
+
+There are different kinds of binary search tree, in the given table a comparison is done between them.
 
 ```table
 
