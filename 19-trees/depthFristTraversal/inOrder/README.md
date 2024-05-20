@@ -26,6 +26,8 @@ Output: 40 20 60 10 50 30
 
 ## Note:
 
+The order for inOrder traversal is (left, root, right)
+
 Remember to do not add the `result` list inside the recursive function, because every time it resets and removes the previous values if they were added.
 
 Use one helper function to do the recursive calls, and one main function to have the result list, to call the recursive function, and to return the result.
