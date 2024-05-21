@@ -17,7 +17,7 @@ class Solution:
         # If the values are not equal.
         if root1.data!=root2.data:
             return False
-        
+        # Recursively compare the left sub tree of tree1 with left sub tree of tree2 and do the same with their right sub tree.
         return self.areIdentical(root1.left, root2.left) and self.areIdentical(root2.right, root1.right)
         
         
