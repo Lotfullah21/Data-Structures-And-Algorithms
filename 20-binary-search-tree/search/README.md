@@ -52,6 +52,7 @@ The above problem can be solved using two approaches.
 ## Iterative approach
 
 Keep searching until you find the target element.
+Every time, change the root to look for the target either on its left or right child.
 
 ## Algorithm:
 
