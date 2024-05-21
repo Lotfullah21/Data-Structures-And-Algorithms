@@ -1,34 +1,4 @@
-"""
-Given a Binary search tree and a value X,  the task is to complete the function which will return the ceil of x.
 
-Note: Ceil(X) is an element that is either equal to X or immediately greater to X. If no such element exits return -1.
-
-
-Input:
-       8
-     /  \
-    5    11
-   / \    \
-  2   6   12
-X = 11
-Output: 12
-Explanation: ceil of 23 in the given BST
-is 11
-
-Input:
-       4
-     /   \
-    3     5
-        /  \
-       4    8
-    
-
-X = 12
-Output: -1
-Explanation: No greater element exits
-
-
-"""
 
 # Definition for a binary tree node.
 class Node:

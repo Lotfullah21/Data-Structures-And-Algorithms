@@ -1,34 +1,4 @@
-"""
-Given a Binary search tree and a value X,  the task is to complete the function which will return the floor of x.
 
-Note: Floor(X) is an element that is either equal to X or immediately smaller to X. If no such element exits return -1.
-
-
-Input:
-       8
-     /  \
-    5    11
-   / \    \
-  2   6   12
-X = 11
-Output: 11
-Explanation: Floor of 11 in the given BST
-is 11
-
-Input:
-       4
-     /   \
-    3     5
-        /  \
-       4    8
-    
-
-X = 1
-Output: -1
-Explanation: No smaller element exits
-
-
-"""
 
 # Definition for a binary tree node.
 class Node:
@@ -47,8 +17,8 @@ def floor(root: Node,x: int) -> int:
         # if root is == x, then the root itself is the floor
         if root.data == x:
             return root.data
-        # if root.data>x, then we should move to the left side, because floor of a number cannot be a number greater than itself.
-        elif root.data>x:
+        # if x<root.data, then we should move to the left side,we are looking for numbers just greater than x.
+        elif x<root.data:
             root = root.left
         # answer is in the place where the current node becomes < x.
         else:
