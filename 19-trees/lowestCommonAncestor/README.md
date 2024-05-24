@@ -2,6 +2,8 @@
 
 Given a Binary STree (with all values unique) and two node values n1 and n2 (n1!=n2). Find the Lowest Common Ancestors of the two nodes in the binary tree.
 
+<h3><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/1266735113/">leetcode-236</a></h3>
+
 Input:
 
 ```plaintext

@@ -3,6 +3,7 @@
 Given a Binary Search Tree (with all values unique) and two node values n1 and n2 (n1!=n2). Find the Lowest Common Ancestors of the two nodes in the BST.
 
 <h3><a href="https://www.geeksforgeeks.org/batch/dsa-python-self-paced/track/bst-advanced-python/problem/lowest-common-ancestor-in-a-bst">GFG</a></h3>
+<h3><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/">leetcode-235</a></h3>
 Input:
 
 ```plaintext
