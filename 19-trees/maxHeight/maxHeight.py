@@ -9,6 +9,7 @@ def maxHeight(node):
     # base case, if it is the last node, the height is 0
 	if node is None:
 		return 0
+	# If it is asked in terms of edges, then instead of returning 0, return -1.
 	else:
 		# call recursively until you reach the leaf on each side of the tree.
 		leftHeight = maxHeight(node.left)
