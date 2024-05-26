@@ -2,8 +2,7 @@
 
 Given a binary tree, find the maximum height of a binary tree.
 
-<h3><a href="
-https://www.geeksforgeeks.org/batch/dsa-python-self-paced/track/tree-basic-python/problem/height-of-binary-tree">leetcode-144</a></h3>
+<h3><a href="https://www.geeksforgeeks.org/batch/dsa-python-self-paced/track/tree-basic-python/problem/height-of-binary-tree">leetcode-144</a></h3>
 
 ## Height:
 
