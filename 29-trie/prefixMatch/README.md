@@ -11,10 +11,10 @@ A prefix is a sequence of characters at the beginning of a string. For example, 
 
 ## Example:
 
-"apple" -> starts with "app"
-"app" -> starts with "app"
-"apricot" -> does not start with "app"
-"banana" -> does not start with "app"
-"bat" -> does not start with "app"
-"bar" -> does not start with "app"
-"barn" -> does not start with "app"
+"apple" -> starts with "app".
+"app" -> starts with "app".
+"apricot" -> does not start with "app".
+"banana" -> does not start with "app".
+"bat" -> does not start with "app".
+"bar" -> does not start with "app".
+"barn" -> does not start with "app".
