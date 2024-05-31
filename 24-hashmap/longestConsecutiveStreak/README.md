@@ -48,6 +48,8 @@ To know whether an element is starting point of a sequence, check if a number on
 
 - Iterate through elements in the set.
   - Check if the current number is starting point of a sequence, if so.
+  - Start counting the streak by comparing if one number larger than itself exists, if exist:
+    - Increment the current streak (length of the sequence)
 
 ```py
 class Solution:
