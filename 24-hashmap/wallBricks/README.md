@@ -44,5 +44,5 @@ countGap:
 ## Analysis:
 
 `Time Complexity`: `O(lamp+queries)`.
+
 `Space Complexity`: `O(lamp)`, for every lamp, space has been used in dictionary.
-'
