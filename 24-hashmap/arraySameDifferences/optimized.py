@@ -12,9 +12,6 @@ class Solution:
         print(ans, countFreq)
         return ans
 
-        
-    
-
 
 arr = [3, 5, 1, 4, 6, 6]
 solution = Solution()
