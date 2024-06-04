@@ -14,7 +14,7 @@ for subject in subjects:
     if subject["name"] not in new_subjects:
         new_subjects.append(subject["name"])
         count = count + 1
-         
+        
 print(count)
 for subject in new_subjects:
     print(subject)
