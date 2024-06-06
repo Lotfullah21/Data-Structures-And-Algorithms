@@ -35,7 +35,7 @@ class RandomizedCollection:
             # If the removed index is same as the last index, simply remove that element from the list
             self.nums.pop()
         else:
-            # Get the index of last index 
+            # Get the index of last element
             lastIdx = len(self.nums)-1
             # Swap the removed index with the last index (We want to move the element to be deleted ot the end of the list os that the operation can be done in O(1))
             # Save the value of last element in the list
