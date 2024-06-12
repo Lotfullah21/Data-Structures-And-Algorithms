@@ -55,7 +55,6 @@ Within each folder, you'll find solutions to general DSA problems as well as sol
 | 22-queue                | Queue data structure solutions                  | <a href=./22-queue/> queue </a>                               |
 | 23-two-pointers         | Two Pointers technique solutions                | <a href=./23-two-pointers/> two pointers </a>                 |
 | 24-heap                 | Heap data structure solutions                   | <a href=./24-heap/> heap </a>                                 |
-| 25-matrix               | Solution to matrix problems                     | <a href=./25-matrix/> matrix </a>                             |
 | 26-dynamic-programming  | Dynamic Programming solutions                   | <a href=./26-dynamic-programming/> dynamic-programming </a>   |
 | 27-graphs               | More Graph data structure solutions             | <a href=./27-graphs/> graphs </a>                             |
 | 28-advanced-mathematics | Advanced Mathematics solutions                  | <a href=./28-advanced-mathematics/> advanced-mathematics </a> |
