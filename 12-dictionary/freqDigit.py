@@ -20,8 +20,7 @@ def freq(q, arr):
     
             
     
-    
-    
+
     
 if __name__ == "__main__":
     main()

@@ -18,7 +18,6 @@ def freq(arr: list) -> dict:
             my_dict[ele] = my_dict[ele] + 1
         else:
             my_dict[ele] = 1
-            
     return my_dict
 
 def most_common(dict_arr, queries):

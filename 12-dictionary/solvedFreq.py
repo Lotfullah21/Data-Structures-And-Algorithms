@@ -6,8 +6,8 @@ def FrequencyQueries(arr, queries):
             hm[num] += 1
         else:
             hm[num] = 1
-
     result = []
+    
     for num in queries:
         if num in hm:
             result.append(hm[num])
