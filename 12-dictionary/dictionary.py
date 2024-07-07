@@ -18,6 +18,9 @@ print("Values =",capitals.values())
 for x in capitals.values():
     print(x)
     
+for x,v in capitals.items():
+    print(x,v)
+    
 
-for w in capitals:
-    print("w",w)
+# for w in capitals:
+#     print("w",w)

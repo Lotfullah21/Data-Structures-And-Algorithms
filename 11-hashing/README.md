@@ -9,8 +9,8 @@ For instance if insertion into a list is done in unsorted order, the `search` op
 
 Hashing is not best for the following operations:
 
-- Finding closes value
-- Sorted Data
+- Finding closest value
+- Keeping the data in sorted order
 - Prefix search
 
 | Data Structure     | Search   | Insert | Delete | Comments                                              |
@@ -24,8 +24,8 @@ Hashing is not best for the following operations:
 ## Application:
 
 - Dictionary implementation
-- Database indexing to find the records
-- Cryptography
+- Database indexing to find the records quickly
 - Using keys and getting the values from the database
 - Implementing caching associated to an url
-- To check if a symbol is valid or not in compilers/interpreters.
+- Cryptography
+- To check if a symbol is valid or not in compilers/interpreters

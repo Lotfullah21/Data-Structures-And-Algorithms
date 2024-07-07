@@ -19,11 +19,10 @@ def sqrt(x: int) -> int:
     :return: square root of a number.
      
     """
-    
     return x**0.5
 
 square_list = []
-def applyToEach(List: int,fn: function) -> list:
+def applyToEach(List: int,fn) -> list:
     for i in range(len(List)):
         List[i] = fn(List[i])
     return List

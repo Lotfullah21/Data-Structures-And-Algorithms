@@ -19,11 +19,18 @@ class Solution:
     def smallerThanX(self,arr,n,x):
         #return required ans
         count = 0
+        res = []
         for ele in arr:
             if ele<x:
                 count +=1
-        return count
+                res.append(ele)
+        return count,res
                 
         #code here
         
 source = "https://www.geeksforgeeks.org/batch/dsa-python-self-paced/track/list-basic-python/problem/count-smaller-than-x"
+
+solution = Solution()
+arr = [1,2,3,4,90,312,23,3,1,4,13,42,12,32,12,10]
+result = solution.smallerThanX(arr, 12, 13)
+print(result)

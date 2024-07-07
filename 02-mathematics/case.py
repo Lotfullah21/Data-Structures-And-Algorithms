@@ -5,8 +5,10 @@ def main():
 def check_case(n):
     if n >="a" and n<="z":
         print("lower case")
-    else:
+    elif n>="A" and n<="Z":
         print("upper case")
+    else:
+        print("None of the above")
         
 if __name__ =="__main__":
     main()

@@ -14,5 +14,11 @@ Output: 1 2 3 5 6 0
 
 def deleteFromArray(arr,n,idx):
     del arr[idx]
-    arr.append(0)
+    # arr.append(0)
     return arr
+
+
+arr = [13,3,5,5,2,3,4,2,4,2,32,4]
+print(arr)
+result = deleteFromArray(arr, 6, 0)
+print(result)
