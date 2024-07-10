@@ -8,9 +8,8 @@ class Solution:
         dp[number] = self.findNthFibonacci(number-1,dp) + self.findNthFibonacci(number-2,dp)
         return dp[number]
     
-    
-n = 6
-dp = [None]*92
 solution = Solution()
+n = int(input("Enter a number: "))
+dp = [None]*(n+1)
 ans = solution.findNthFibonacci(n,dp)
 print(ans)
