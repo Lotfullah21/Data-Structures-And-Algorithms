@@ -16,4 +16,3 @@ class Solution:
             prev1 = current
         
         return prev1
-22
