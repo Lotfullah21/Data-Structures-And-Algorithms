@@ -21,3 +21,36 @@ Since we do not know on which side is our most common subsequence, we call it re
 
 `Time Complexity:` O(N*M).
 `Space Complexity:` O(N*M).
+
+Ways to create a 2-D array:
+
+1. Nested List
+
+```py
+rows, cols = 3, 4
+matrix = [[0 for _ in range(cols)] for _ in range(rows)]
+print(matrix)  # Output: [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+
+```
+
+2. Using loops
+
+```py
+rows, cols = 3, 4
+matrix = []
+for i in range(rows):
+    row = []
+    for j in range(cols):
+        row.append(0)
+    matrix.append(row)
+print(matrix)  # Output: [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+```
+
+3. Using List comprehension
+
+```py
+rows, cols = 3, 4
+matrix = [[0] * cols for _ in range(rows)]
+print(matrix)  # Output: [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+
+```
