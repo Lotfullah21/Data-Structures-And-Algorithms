@@ -1,6 +1,3 @@
-def squareWall(s):
-    #Complete the below code
-    #Replace .... by your own code
-    for _ in range(s):
-        print("* "*s, sep=" ")
-squareWall(8)
+n = 10
+memo = [[-1 for _ in range(n+1)] for _ in range(n+1)]
+print(memo)
