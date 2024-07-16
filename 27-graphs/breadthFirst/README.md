@@ -85,3 +85,21 @@ Thus, the time complexity is O(V+E).
 Queue: At most, the queue holds all vertices, O(V).
 Visited list: A list of size O(V).
 Thus, the space complexity is O(V).
+
+| **Aspect**           | **Description**                                                                                                                                          |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Time Complexity**  | \(O(V + E)\), where \(V\) is the number of vertices and \(E\) is the number of edges. BFS checks each vertex and edge exactly once.                      |
+| **Space Complexity** | \(O(V)\), for the queue and the visited list. The space used depends on the number of vertices in the graph.                                             |
+| **Edge Checking**    | Each edge is checked when exploring the neighbors of a vertex. This happens during the `for` loop in the BFS algorithm for each vertex's adjacency list. |
+
+In the BFS algorithm, we don’t count the space for the adjacency list because it is considered part of the graph representation rather than part of the BFS algorithm’s
+It focus on the auxiliary data structures it uses.
+
+## Space Complexity of BFS Algorithm in Depth
+
+| **Aspect**                     | **Space Complexity** | **Explanation**                                                             |
+| ------------------------------ | -------------------- | --------------------------------------------------------------------------- |
+| **Visited List**               | \(O(V)\)             | Stores visitation status for each vertex.                                   |
+| **Queue**                      | \(O(V)\)             | Holds vertices for the BFS traversal, worst case all vertices in the queue. |
+| **Adjacency List**             | \(O(V + E)\)         | Part of the graph representation, not included in BFS space complexity.     |
+| **Total BFS Space Complexity** | \(O(V)\)             | Space used by BFS algorithm excluding the graph representation.             |
