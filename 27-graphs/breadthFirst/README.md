@@ -21,7 +21,7 @@ For deciding the source node where you are going to measure the other nodes from
       1. Add them to the queue.
       2. Make that specific index boolean value inside our visited list True.
 
-<img src="../../assets/graph/bfs.png" height = "100">
+<img src="../../assets/graph/bfs.png" height = "200">
 The breadth first traversal for the above graph would be [A,B,E,C,D]
 
 ## Implementation:
