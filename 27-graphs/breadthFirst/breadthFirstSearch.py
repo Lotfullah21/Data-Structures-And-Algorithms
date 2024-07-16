@@ -26,11 +26,10 @@ class Solution:
         return answer
     
 # Example usage:
-
 V = 5  # Number of vertices
 E = 4  # Number of edges
-adj = [[1, 2, 3], [], [4], [], []]  # Adjacency list
-
+# Adjacency list
+adj = [[1, 2, 3], [], [4], [], []] 
 # You can create an instance of Solution and call the bfsOfGraph method with the desired V and adjacency list.
 solution = Solution()
 result = solution.bfsOfGraph(V, adj)
