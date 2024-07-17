@@ -1,4 +1,17 @@
 class Solution:
+    
+                    
+    def dfsOfGraph(self, V, adj):
+        # share the array answer across functions.
+        answer = []
+        visited = [False] * V
+        # If we want to pick 0 as source node, then add the below lines of code.
+        answer.append(0)
+        visited[0] = True
+        # Call it once, be appending 0, we will be  starting from 0.
+        self.dfsOfGraphHelper(adj, 0, answer, visited)
+        return answer
+    
     def dfsOfGraphHelper(self, adj, src, answer, visited):
         # get the neighbors of current source node
         neighbors = adj[src]
@@ -10,17 +23,6 @@ class Solution:
                 visited[v] = True
                 # Call the recursive function current node which is neighbors of source node.
                 self.dfsOfGraphHelper(adj, v, answer, visited)
-                
-    def dfsOfGraph(self, V, adj):
-        # share the array answer across functions.
-        answer = []
-        visited = [False] * V
-        # If we want to pick 0 as source node, then add the below lines of code.
-        answer.append(0)
-        visited[0] = True
-        # Call it once, be appending 0, we will be  starting from 0.
-        self.dfsOfGraphHelper(adj, 0, answer, visited)
-        return answer
 if __name__ == "__main__":
     solution = Solution()
     V, E = map(int, input().split())
