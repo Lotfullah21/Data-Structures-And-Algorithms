@@ -5,11 +5,11 @@ Here, the order does not matter.
 ## Approach
 
 - Initialize an answer list, a visited list and also initialize the src vertex does no matter which one.
-- Find the neighbors fo the source vertex.
+- Find the neighbors of the source vertex.
 - Check if any of them is not visited:
   - If not visited, add them to the answer
   - Make its visited index to be True
-  - and call a recursive function which do the above operation until.
+  - and call a recursive function which do the above operation until nothing left.
 
 ## Analysis
 
