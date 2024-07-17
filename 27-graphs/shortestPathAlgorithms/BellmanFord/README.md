@@ -7,7 +7,9 @@ The Bellman-Ford algorithm is used for finding the shortest paths from a single 
 
 ## Approach
 
+
 <img src="../../../assets/graph/bellman.png" height="540" width="520">
+
 
 1. ### Initialization:
 
