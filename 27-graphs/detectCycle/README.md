@@ -5,3 +5,5 @@
 3. if Kahn's algorithm is not completed, then we can say there is a cycle.
 4. How to check?
    1. Examine if all the nodes are visited.
+
+<img src="../../assets/graph/topo.png">
