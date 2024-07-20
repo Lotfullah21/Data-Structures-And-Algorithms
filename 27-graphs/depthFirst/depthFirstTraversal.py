@@ -1,6 +1,4 @@
-class Solution:
-    
-                    
+class Solution:        
     def dfsOfGraph(self, V, adj):
         # share the array answer across functions.
         answer = []
@@ -21,19 +19,28 @@ class Solution:
             if not visited[v]:
                 answer.append(v)
                 visited[v] = True
-                # Call the recursive function current node which is neighbors of source node.
+                # Call the recursive function on current node which is the neighbors of source node.
                 self.dfsOfGraphHelper(adj, v, answer, visited)
-                
+
 if __name__ == "__main__":
     solution = Solution()
-    V, E = map(int, input().split())
+    # Example input
+    V, E = 5, 4  # 5 vertices, 4 edges
+    edges = [
+        (0, 1),
+        (0, 2),
+        (0, 3),
+        (2, 4)
+    ]
+    
     adj = [[] for _ in range(V)]
-    for _ in range(E):
-        u, v = map(int, input().split())
+    for u, v in edges:
         adj[u].append(v)
         adj[v].append(u)
+    print("adjacency list =",adj)
     result = solution.dfsOfGraph(V, adj)
-# print the list of vertices.
+    
+    # Print the list of vertices in the DFS traversal
     for vertex in result:
         print(vertex, end=" ")
     print()
