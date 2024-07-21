@@ -93,10 +93,15 @@ Heaps are really good when all we care is the smallest or largest element and we
 heap functionality in python is provided by `heapq` module.
 
 `heapq.heapify(L)`: transforms the elements in L into a heap in-place.
+
 `heapq.nlargest(K, L)`: returns `k` smallest elements from list `L`.
+
 `heapq.nlargest(K, L)`: returns `k` largest elements from list `L`.
+
 `heapq.heappush(h, e)`: pushes a new element on the heap.
+
 `heapq.heappop()`: pops the smallest element from the heap.
+
 `heapq.heappushpop(h, a)`: pushes an element on the heap and pops and returns the smallest element from the heap.
 
 By default, when we talk about heapq in python, it is a min-heap.
