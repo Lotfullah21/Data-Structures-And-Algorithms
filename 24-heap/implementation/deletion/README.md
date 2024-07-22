@@ -19,4 +19,5 @@
 
 ## Time Complexity:
 
+Removing from the end of a list takes `O(1)` operations.
 `O(logN)`, we are traversing the height of the tree.
