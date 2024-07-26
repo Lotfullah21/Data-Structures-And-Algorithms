@@ -40,13 +40,13 @@ def main():
 def pairSum(arr,k):
     my_set = set()
     for i in range(0, len(arr)):
-        my_set.add(arr[i])
+        my_set.add((arr[i],i))
             
-    for ele in arr:
-        a = ele
+    for i in range(len(arr)):
+        a = arr[i]
         b = k - a
         if b in my_set:
-            return True
+            return b[i], i
     return False
     
     
